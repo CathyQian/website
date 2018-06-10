@@ -10,7 +10,7 @@ I have documented my work on GitHub into the following four categories:
 
 - [Springboard Data Science Bootcamp](https://github.com/CathyQian/Springboard_Data_Science)
   
-  This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I keep updating it after I exited the bootcamp.
+  This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I continue updating it after I exited the bootcamp.
 - [Courses and Certificates](https://github.com/CathyQian/Courses_and_Certificates)
 
   This repository contains most online courses I have taken and all certificates I have earned along the way.  
