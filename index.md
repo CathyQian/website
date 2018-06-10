@@ -6,12 +6,11 @@ I have a Ph.D. degree in Chemistry from the University of Pennsylvania, focusing
 I got really interested in data science during my work at the University of Washington. Having nevigated the academic world for many years, I come to the realization that data science tools especially machine learning is going to revolutionize the traditional way we analyze data and solve complicated problems both inside and outside of academia. One of the best articles I would suggest you to read if you have doubts on my above belief is ['Hacking Academia: Data Science and the University'](https://jakevdp.github.io/blog/2014/08/22/hacking-academia/) by Jake VanderPlas, director of the eScience Institute at the University of Washington. In fact, my research group has pioneered in adopting machine learning methods to [classify spectroscpy data collected by atomic force microscopy](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00722), and such work is well received in the community. As I dive deeper and deeper into the data science field, I start to have more fun and glad that I've made the right transition! 
 
 ## My work
-I have documented my work on Github into the following four categories:
+I have documented my work on GitHub into the following four categories:
 
 - [Springboard Data Science Bootcamp](https://github.com/CathyQian/Springboard_Data_Science)
   
-  This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I keep updating it as I grow 
-  as a data scientist.
+  This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I keep updating it after I exited the bootcamp.
 - [Courses and Certificates](https://github.com/CathyQian/Courses_and_Certificates)
 
   This repository contains most online courses I have taken and all certificates I have earned along the way.  
