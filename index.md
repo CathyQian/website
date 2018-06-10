@@ -8,17 +8,17 @@ I got really interested in data science during my work at the University of Wash
 ## My work
 I have documented my work on Github into the following four categories:
 
-- 1) [Springboard Data Science Bootcamp](https://github.com/CathyQian/Springboard_Data_Science)
+- [Springboard Data Science Bootcamp](https://github.com/CathyQian/Springboard_Data_Science)
   
   This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I keep updating it as I grow 
   as a data scientist.
-- 2) [Courses and Certificates](https://github.com/CathyQian/Courses_and_Certificates)
+- [Courses and Certificates](https://github.com/CathyQian/Courses_and_Certificates)
 
   This repository contains most online courses I have taken and all certificates I have earned along the way.  
-- 3) [Data Science Projects](https://github.com/CathyQian/Data_Science_Projects)
+- [Data Science Projects](https://github.com/CathyQian/Data_Science_Projects)
   
   This repository contains most of the independent data science projects I have done on the side.
-- 4) [Raspberry Simulation](https://github.com/CathyQian/Raspberry_Simulation)
+- [Raspberry Simulation](https://github.com/CathyQian/Raspberry_Simulation)
   
   This repository contains simulation and modeling work I have done during my Ph.D. at the University of Pennsylvania. I publish under the   name Zhaoxia Qian.
 
