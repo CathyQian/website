@@ -12,15 +12,12 @@ I have documented my work on Github into the following four categories:
   
   This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I keep updating it as I grow 
   as a data scientist.
-  
 - [Courses and Certificates](https://github.com/CathyQian/Courses_and_Certificates)
-  
-  This repository contains most online courses I have taken and all certificates I have earned along the way.
-  
+
+  This repository contains most online courses I have taken and all certificates I have earned along the way.  
 - [Data Science Projects](https://github.com/CathyQian/Data_Science_Projects)
   
   This repository contains most of the independent data science projects I have done on the side.
-  
 - [Raspberry Simulation](https://github.com/CathyQian/Raspberry_Simulation)
   
   This repository contains simulation and modeling work I have done during my Ph.D. at the University of Pennsylvania.
