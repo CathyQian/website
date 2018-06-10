@@ -19,6 +19,6 @@ I have documented my work on GitHub into the following four categories:
   This repository contains most of the independent data science projects I have done on the side.
 - [Raspberry Simulation](https://github.com/CathyQian/Raspberry_Simulation)
   
-  This repository contains simulation and modeling work I have done during my Ph.D. at the University of Pennsylvania. I publish under the   name Zhaoxia Qian.
+  This repository contains simulation and modeling work I have done during my Ph.D. at the University of Pennsylvania. I publish under the   name [Zhaoxia Qian](https://scholar.google.com/citations?user=LD8MNZoAAAAJ&hl=en).
 
 I am always eager to learn more about data science, especially machine learning and hungry to use what I have learned to solve important problems in various fields including science, engineering, retail, insurance, ecommerce, supply chain, to name a few. Feel free to reach out to me if you share similar passion!
