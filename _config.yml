@@ -9,17 +9,3 @@ destination: ./_site
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
-
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
