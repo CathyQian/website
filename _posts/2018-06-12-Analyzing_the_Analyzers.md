@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analyzing the analyzers
+date: 2018-06-12
 ---
 This blog is a summary of the following book:
 
