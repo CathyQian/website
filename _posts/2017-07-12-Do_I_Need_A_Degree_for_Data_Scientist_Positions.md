@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Do I Need a Degree for Data Scientist Positions?
+date: 2017-07-12
 ---
 
 I find this interesting article discussing about whether we need a degree to find a job as a machine learning scientist
