@@ -1,2 +1,3 @@
 theme: jekyll-theme-slate
 title: Welcome to Zhaoxia (Cathy) Qian's homepage!
+permalink: /blog/:year/:month/:day/:title
