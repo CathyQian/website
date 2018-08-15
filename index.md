@@ -1,4 +1,4 @@
-## About me
+
 Hi, I'm Cathy. This webpage contains my notes, blogs and projects in the data science journey starting from 2016.
 
 I have a Ph.D. degree in Chemistry from the University of Pennsylvania, focusing in physical chemistry and applied physics. After graduating in 2014, I started to work at the University of Washington as a Washington Research Foundation Innovation Fellow. This is a highly competitive position and I was selected as one of the only three fellows among a large pool of both domestic and international candidates in 2015.
