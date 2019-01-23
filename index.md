@@ -12,6 +12,9 @@ I have started to work at Terawe Corporation since the summer of 2018. I serve a
 ## My work
 I have documented my work on GitHub into the following four categories:
 
+- [Data Science Tools](https://github.com/CathyQian/DataScienceTools)
+   
+  This repository contains tools and templates I have gradually accumulated during work.
 - [Springboard Data Science Bootcamp](https://github.com/CathyQian/Springboard_Data_Science)
   
   This repository contains most of my notes and projects in the Springboard data science bootcamp in 2017. I continue updating it after I exited the bootcamp.
@@ -23,6 +26,6 @@ I have documented my work on GitHub into the following four categories:
   This repository contains most of the independent data science projects I have done on the side.
 - [Optical Simulation](https://github.com/CathyQian/Raspberry_Simulation)
   
-  This repository contains simulation and modeling work I have done during my Ph.D. at the University of Pennsylvania. I publish under the   name [Zhaoxia Qian](https://scholar.google.com/citations?user=LD8MNZoAAAAJ&hl=en).
+  This repository contains simulation and modeling work I have done during my Ph.D. at the University of Pennsylvania. I publish under the name [Zhaoxia Qian](https://scholar.google.com/citations?user=LD8MNZoAAAAJ&hl=en).
 
 I am interested in using artificial intelligence to solve emerging problems in healthcare, engineering, retail, insurance, ecommerce, supply chain, to name a few. Feel free to reach out to me if you share similar passion!
