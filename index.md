@@ -1,4 +1,3 @@
-## About me
 Hi, I'm Cathy. I am currently an AI Engineer delivering machine learning solutions at a startup company in the Greater Seattle Area. This webpage serves as a directory to my GitHub account where I host my projects, notes and thoughts about data science.
 
 Here is a little more about my educational background and journey towards data science especially machine learning.
