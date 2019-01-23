@@ -1,5 +1,7 @@
+
 Hi, I'm Cathy. I am currently an AI Engineer delivering machine learning solutions at a startup company in the Greater Seattle Area. This webpage serves as a directory to my GitHub account where I host my projects, notes and thoughts about data science.
 
+## More about me
 Here is a little more about my educational background and journey towards data science especially machine learning.
 I have a Ph.D. degree in Chemistry from the University of Pennsylvania, focusing in physical chemistry and applied physics. After graduating in 2014, I started to work at the University of Washington as a Washington Research Foundation Innovation Fellow. This is a highly competitive position and I was selected as one of the only three fellows among a large pool of both domestic and international candidates in 2015.
 
@@ -10,7 +12,7 @@ A Ph.D. degree has helped a lot in my data science journey. What I get most out 
 I have started to work at Terawe Corporation since the summer of 2018. I serve as an internal data scientist to build predictive models to process various types of data including texts, images, time-series data and audios and web-based demos via integrating the front end and back end blocks.
 
 ## My work
-I have documented my work on GitHub into the following four categories:
+I have documented my work on GitHub into the following categories:
 
 - [Data Science Tools](https://github.com/CathyQian/DataScienceTools)
    
