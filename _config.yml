@@ -4,6 +4,6 @@ kramdown:
   hard_wrap: false
 future: true
 jailed: false
-theme: minima
+theme: jekyll-theme-slate
 title: Welcome to Zhaoxia (Cathy) Qian's homepage!
 permalink: /blog/:year/:month/:day/:title
