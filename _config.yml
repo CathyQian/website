@@ -1,5 +1,5 @@
 encoding: UTF-8
-kramdown:
+markdown: kramdown
   input: GFM
   hard_wrap: false
 future: true
