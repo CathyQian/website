@@ -3,5 +3,5 @@ markdown: kramdown
 future: true
 jailed: false
 theme: jekyll-theme-slate
-title: Welcome to Zhaoxia (Cathy) Qian's homepage!
+title: "Welcome to Zhaoxia (Cathy) Qian's homepage!"
 permalink: /blog/:year/:month/:day/:title
