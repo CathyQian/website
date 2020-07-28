@@ -16,6 +16,7 @@ PySpark offers PySpark Shell which links the Python API to the spark core and in
 
 ## How does Spark work
 ![](2020-07-28-05-24-21.png)
+
 Spark Cluster Overview from [Apache Spark](https://spark.apache.org/docs/latest/cluster-overview.html)
 
 #### Cluster Manager
