@@ -42,7 +42,7 @@ Apache Spark is a fast and general engine for **large-scale data processing** (n
 Apache Spark does not come with in-built cluster resource manager and distributed storage system.
 
 - You can choose Apache YARN or Mesos or **Hadoop**(popular and that's why Hadoop and Spark are easily mixed up) as cluster resource manager for Apache Spark.
-- You can choose Hadoop Distributed File System, Google Cloud Storage, AWS S3 as storage system.
+- You can choose Hadoop Distributed File System (Yes Hadoop), Google Cloud Storage, AWS S3 as storage system.
 
 Apache Spark has the following advantages:
 
