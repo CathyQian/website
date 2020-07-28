@@ -15,17 +15,17 @@ PySpark offers PySpark Shell which links the Python API to the spark core and in
 - Install findspark using ```pip install findspark``` in Anaconda command prompt so that you can use pyspark in any IDE including Jupyter Notebook
 
 ## How does Spark work
+![](2020-07-28-05-24-21.png)
+Spark Cluster Overview from [Apache Spark](https://spark.apache.org/docs/latest/cluster-overview.html)
 
-[Spark Cluster Overview from [Apache Spark](https://spark.apache.org/docs/latest/cluster-overview.html)](./images/Spark_Cluster_Overview.PNG)
-
-### Cluster Manager
+#### Cluster Manager
 Accoring to Apache Spark official website, Spakr currently supports several cluster managers:
 - Standalone – a simple cluster manager included with Spark that makes it easy to set up a cluster.
 - Apache Mesos – a general cluster manager that can also run Hadoop MapReduce and service applications.
 - Hadoop YARN – the resource manager in Hadoop 2.
 - Kubernetes – an open-source system for automating deployment, scaling, and management of containerized applications.
 
-### SparkContext
+#### SparkContext
 SparkContext is the main entry point for Spark functionality. It represents the connection to a Spark cluster, and can be used to create RDDs, accumulators, coordinate Spark applications and broadcast variables on that cluster. A Spark context is essentially a client of Spark’s execution environment and acts as the master of your Spark application. Creating a SparkContext is the most important step and the first step you need to create before using any Spark application. 
 
 The following code shows how to initiate a SparkContext in a local cluster (single-machine mode):
@@ -44,7 +44,7 @@ sc = SparkContext(conf=conf)
 
 ```
 
-### RDD 
+#### RDD 
 RDD stands for Resilient Distributed Dataset. They are the elements that run and operate on multiple nodes to do parallel processing on a cluster. RDDs are **immutable** and can **recover automatically** in case of any failure. RDDs can be created directly from input files or a newly defined data as follows.
 
 ```
@@ -74,7 +74,7 @@ PySpark is the Python API for Spark. It allows data scientist to do big data pro
 
 For beginners, changing Python code to PySpark code is a good way to get familiar with PySpark. Below is a collection of common Python code used in data science and their PySpark version.
 
-### create pandas or PySpark dataframe
+#### create pandas or PySpark dataframe
 ```
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
@@ -89,12 +89,12 @@ pandas_df = pd.DataFrame.from_dict(records)
 pyspark_df = sqlContext.createDataFrame(records)
 ```
 
-### Spark dataframe to pandas dataframe
+#### Spark dataframe to pandas dataframe
 ```
 pandas_df = pyspark_df.toPandas()
 ```
 
-### filter data in pandas or PySpark dataframe
+#### filter data in pandas or PySpark dataframe
 ```
 pandas_df[~pandas_df['color'].isin(["red"])]
 
@@ -102,13 +102,13 @@ pyspark_df.filter(~pyspark_df['color'].isin(['red'])).collect()
 # pyspark_df.filter((df.col1< 3)&(df.col2 > 4))
 ```
 
-### drop columns
+#### drop columns
 ```
 pandas_df = pandas_df.drop([col1, col2])
 pyspark_df = pyspark_df.drop(col1, col2)
 ```
 
-### convert dataframe to numpy array
+#### convert dataframe to numpy array
 ```
 # python
 df.col_name.values
@@ -117,19 +117,19 @@ df.col_name.values
 np.array(df.select(col1, col2).collect())
 ```
 
-### dataframe dimension
+#### dataframe dimension
 ```
 print(len(pandas_df.index), len(pandas_df.columns))
 print(pyspark_df.count(), len(pyspark_df.columns))
 ```
 
-### locate cretain elements
+#### locate cretain elements
 ```
 pandas_df[col_name].iloc[i]
 pyspark_df.collect()[i][col_name]
 ```
 
-### update column content
+#### update column content
 ```
 # python
 pandas_df.loc[:, col_name] = new_content
@@ -140,7 +140,7 @@ udf = UserDefinedFunction(lambda x: 'new_value', StringType())
 new_df = old_df.select(*[udf(column).alias(name) if column == name else column for column in old_df.columns])
 ```
 
-### add a new column to a dataframe
+#### add a new column to a dataframe
 ```
 # python
 pandas_df.loc[:, 'rate_type'] = pd.Series(np.array(rate_type))
@@ -154,13 +154,13 @@ from pyspark.sql.functions import lit
 df.withColumn('new_column', lit(10))
 ```
 
-### map column names to lower case
+#### map column names to lower case
 ```
 pandas_df.columns = list[map(str.lower, pandas_df.columns)]
 pyspark_df.toDF(*[c.lower() for c in df.columns])
 ```
 
-### rename columns
+#### rename columns
 ```
 from pyspark.sql.functions import col
 	
@@ -168,37 +168,37 @@ pandas_df = pandas_df.rename(index=str, columns={"supplier_conf_number": "confir
 pyspark_df = pyspark_df.selectExpr("supplier_conf_number as confirmation_number")
 ```
 
-### group by
+#### group by
 ```
 pandas_df.col_name.value_counts()
 pyspark_df.groupBy('col_name').count().orderBy('count')
 ```
 
-### merge dataframes
+#### merge dataframes
 ```
 merged_pandas_df = pd.merge(pandas_df1,pandas_df2[[col1, col2, col3]],on=[col1, col2], how='outer')
 merged_pyspark_df = pyspark_df1.join(pyspark_df2, pyspark_df1['col1'] == pyspark_df2['col2'], "outer")
 ```
 
-### drop duplicates
+#### drop duplicates
 ```
 pandas_df = pandas_df.drop_duplicates(subset=['col1', 'col2', 'col3'])
 pyspark_df = pyspark_df.dropDuplicates(['col1', 'col2'])
 ```
 
-### drop null value
+#### drop null value
 ```
 pandas_df = pandas_df.dropna(subset=[col_name], how = 'any')
 pyspark_df = pyspark_df.filter(pyspark_df.col_name.isNotNull())
 ```
 
-### column multiplication
+#### column multiplication
 ```
 pandas_df[''new_col']  = pandas_df['col1'] * pandas_df['col2'] * pandas_df['col3']
 pyspark_df = pandas_df.withColumn('new_col', pandas_df['col1'] * pandas_df['col2'] * pandas_df['col3'] )
 ```
 
-### one-hot encoding
+#### one-hot encoding
 ```
 # Python 
 pandas_df = pd.get_dummies(pandas_df, prefix_sep="__", columns=cat_columns)
@@ -219,7 +219,7 @@ for category in categories:
     df = df.withColumn(new_column_name, function(col(col_name)))
 ```
 
-### save to csv file
+#### save to csv file
 ```
 pandas_df.to_csv(local_file_path, sep=',', header=True, index=False)
 
@@ -230,6 +230,7 @@ pyspark_df.coalesce(1).write.option("header", "true").csv("local_file_path.csv")
 # to multiple files with random name in one folder with name as local_file_path
 pyspark_df.write.csv(local_file_path, header=True)
 ```
+
 Reference:
 1. https://www.tutorialspoint.com/pyspark/index.htm
 2. https://realpython.com/pyspark-intro/
