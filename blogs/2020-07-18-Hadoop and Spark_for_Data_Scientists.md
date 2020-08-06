@@ -61,6 +61,9 @@ Apache Spark has the following advantages:
 - Apache Spark is suitable for real-time streaming while MapReduce is suitable for batch processing.
 - Apache Spark requires more lines of code than MapReduce.
 
+## Cascading (Extra)
+Cascading is a software abstraction layer for Apache Hadoop and Apache Flink. Cascading is used to create and execute complex data processing workflows on a Hadoop cluster using any JVM-based language, hiding the underlying complexity of MapReduce jobs.
+
 ## Summary
 
 Hadoop is a software framework for data storage and running applications in clusters, while Spark is an engine for large-scale data processing. Spark does not have its own cluster resource manager and thus sometimes use Hadoop as cluster resource manager (i.e., in Qubole). MapReduce is the main Hadoop data processing API, however Spark is much faster than MapReduce and thus gaining more popularity, especially at the data science and machine learning field where large and complex data processing is needed.
