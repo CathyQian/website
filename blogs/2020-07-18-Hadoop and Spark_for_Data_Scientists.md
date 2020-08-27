@@ -35,7 +35,7 @@ MapReduce is initially created by Google to index information on the internet. I
 The major advantage of MapReduce is that it is **easy to scale data processing over multiple computing nodes**. Under the MapReduce model, the data processing primitives are called mappers and reducers. Decomposing a data processing application into mappers and reducers is sometimes nontrivial. But, once we write an application in the MapReduce form, scaling the application to run over hundreds, thousands, or even tens of thousands of machines in a cluster is merely a configuration change. This simple scalability is what has attracted many programmers to use the MapReduce model.
 
 ## Compare with Spark
-Hadoop can be easily mixed up with Spark. 
+Hadoop can be easily mixed up with Spark given that both words appear frequently together.
 
 Apache Spark is a fast and general engine for **large-scale data processing** (not for data storage) that **can use Hadoop as cluster resource manager** (i.e., Qubole implementation of Spark; there are other options as well). It consists of a Spark core and a set of libraries similar to those available for Hadoop. 
 
@@ -60,6 +60,9 @@ Apache Spark has the following advantages:
 - Apache Spark supports streaming, machine learning, complex analytics etc, while MapReduce comprises simple Map and Reduce tasks.
 - Apache Spark is suitable for real-time streaming while MapReduce is suitable for batch processing.
 - Apache Spark requires more lines of code than MapReduce.
+
+## Cascading (Extra)
+Cascading is a software abstraction layer for Apache Hadoop and Apache Flink. Cascading is used to create and execute complex data processing workflows on a Hadoop cluster using any JVM-based language, hiding the underlying complexity of MapReduce jobs.
 
 ## Summary
 
