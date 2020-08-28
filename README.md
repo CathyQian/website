@@ -1,6 +1,6 @@
 Welcome to Cathy Qian's homepage!
 
-I am currently a data scientist focusing in machine learning implementation. This page hosts blogs about work and life in my data science journey. 
+I am currently a machine learning professional in the high-tech industry. This page hosts all my technical blogs since 2017. 
 
 11. [2020-08-12 Code Testing in Python](/blogs/2020-08-12-Code%20Testing%20in%20Python.md)
 
