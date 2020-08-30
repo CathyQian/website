@@ -26,3 +26,5 @@ I am currently a machine learning professional in the high-tech industry. This p
 11. [2020-08-12 Code Testing in Python](/blogs/2020-08-12-Code%20Testing%20in%20Python.md)
 
 12. [2020-08-28 Embedding in Machine Learning](/blogs/2020-08-27-Embedding%20in%20Machine%20Learning.md)
+
+13. [2020-09-07 KDD2020 Conference Notes]
