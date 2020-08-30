@@ -27,4 +27,5 @@ I am currently a machine learning professional in the high-tech industry. This p
 
 12. [2020-08-28 Embedding in Machine Learning](/blogs/2020-08-27-Embedding%20in%20Machine%20Learning.md)
 
-13. [2020-09-07 KDD2020 Conference Notes]
+13. [2020-09-07 KDD2020 Conference Notes](/blogs/2020-09-07%20KDD2020%20Conference%20Notes.md
+)
