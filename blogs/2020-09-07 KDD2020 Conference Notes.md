@@ -8,6 +8,7 @@ Creating meta-learning models and techniques can help AI learn to generalize lea
 The exact way that meta-learning is conducted varies depending on the model and the nature of the task at hand. However, **in general, a meta-learning task involves copying over the parameters of the first network into the parameters of the second network/the optimizer**.
 
 Creating a meta-learner that has an entirely new set of parameters would be computationally expensive, and for this reason, a tactic called coordinate-sharing is typically used. Coordinate-sharing involves engineering the meta-learner/optimizer so that it learns a single parameter from the base model and then just clones that parameter in place of all of the other parameters. The result is that the parameters the optimizer possesses don’t depend on the parameters of the model.
+
 ![](2020-08-28-16-47-28.png)
 
 References:
@@ -48,6 +49,7 @@ Some examples of real world graph includes biological graph, medical networks, s
 Such embedding is similar to automatic image feature engineering using convolutional neural network. 
 
 The following is a 2D embedding of nodes in a network:
+
 ![](2020-08-29-10-05-04.png)
 
 Here are some notes from [Graph Representation Learning lecture by Jure Leskovec at Stanford university](https://www.youtube.com/watch?v=YrhBZUtgG4E).
@@ -55,7 +57,8 @@ Here are some notes from [Graph Representation Learning lecture by Jure Leskovec
 ![](2020-08-29-10-10-03.png)
 
 - similarity: cosine similarity (preferred, dot product of embeddings)
-- how about node similarity? --- Random Walk or Node2Vec Approaches to node embedding, turning a matrix finding problem into an optimization problem
+- how about node similarity? --- Random Walk or Node2Vec Approaches to node embedding, turning a matrix finding problem into an optimization problem.
+
 ![](2020-08-29-10-11-44.png)
 ![](2020-08-29-10-14-48.png)
 ![](2020-08-29-10-18-07.png)
@@ -64,12 +67,17 @@ Here are some notes from [Graph Representation Learning lecture by Jure Leskovec
 ![](2020-08-29-10-34-29.png)
 ![](2020-08-29-10-36-40.png)
 ![](2020-08-29-10-41-09.png)
+
 p and q are the same across all nodes in the graph.
+
 ![](2020-08-29-10-48-56.png)
 
 node2vec performs better on node classification and random walk performs better on link prediction.
+
 ![](2020-08-29-16-55-50.png)
+
 The graph neural network will learn the mapping function f.
+
 ![](2020-08-29-17-04-57.png)
 ![](2020-08-29-17-06-40.png)
 ![](2020-08-29-17-08-25.png)
@@ -88,15 +96,22 @@ References:
 Recurrent neural network (RNN) is a neural network widely used for sequential data, including time-series data, text or audio data. RNN is different from the classical multi-layer perceptron network in the following aspects: 1) They take into account what happened previously 2) they share parameters/weights. It's also different from ResNet50, which is a convolutional network with output from the previous node as part of the input to the next node.
 
 The architecture of an RNN looks like this:
+
 ![](2020-08-30-12-33-15.png)
+
 Here are some snapshots from reference 2 to illustrate the mathematics of RNN:
+
 ![](2020-08-30-13-13-39.png)
+
 H0 is a vector with all zeros.
+
 ![](2020-08-30-13-17-44.png)
 ![](2020-08-30-13-20-13.png)
+
 The loss function here is log loss. The total log loss is the optimization objective.
 
 Long Short-Term Memory (LSTM) networks are a modified version of RNN, which have resolved the vanishing gradient problem of RNN, store information for a longer period of time and thus model chronological sequences and their long-range dependencies more precisely than conventional RNNs. Below is a comparsion of unit structure between common RNN and LSTM shown in reference 3. 
+
 ![](2020-08-30-13-32-13.png)
 ![](2020-08-30-13-35-51.png)
 
@@ -114,6 +129,7 @@ References:
 ## Multitask learning
 
 Multitask learning enables you to do multiple tasks with one neural network. It allows you to do the tasks faster and with more accuracy. It is widely used in computer vision where one network is built to detect multiple images. Transfer learning is more commonly used than multitask learning nowadays for similar tasks though. Below are some snapshots from Andrew Ng's course in Reference 1. 
+
 ![](2020-08-30-13-58-16.png)
 ![](2020-08-30-13-59-06.png)
 ![](2020-08-30-14-04-42.png)
