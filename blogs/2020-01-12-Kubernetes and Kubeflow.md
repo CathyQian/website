@@ -1,7 +1,7 @@
 Let's start with some basic concepts and go to Kubernetes and Kubeflow later. 
 
 ## Microservices:
-Microservices are an architectural approach to building applications where multiple pieces of an app work independently while together.They have the following characteristics:
+Microservices are an architectural approach to building applications where multiple pieces of an app work independently while together. They have the following characteristics:
 - separate business logic functions
 - instead of one big program, several smaller applications
 - communicate via well defined APIs - usually HTTP
@@ -15,7 +15,7 @@ Advantages of Microservices:
 - language independent (microservices commuicate via HTTP)
 - fast iterations
 - small teams (smaller projects --> smaller teams)
-- fault isolation ( one fail, won't intervene other microservices)
+- fault isolation (one fail, won't intervene other microservices)
 - pair well with containers
 - SCALABLE (big plus, can scale up or down in demand)
 
@@ -24,7 +24,7 @@ Disadvantages of Microservices:
 - overhead (need to know the architecture to organize and orchestrate things, dynamically spin up databases, containanization)
 
 ## Docker
-Docker is an open platform for developers and sysadmins to build, ship and run distributed applications, whether on laptops, data center virtual machines, or the cloud.
+Docker is an open platform for developers and sysadmins to build, ship and deliver software in packages called containers, whether on laptops, data center virtual machines, or the cloud.
 Containers are a way to package software in a format that can run isolated on a shared operating system. Unlike virtual machines, containers do not bundle a full operating system -- only libraries and settings required to make the software work are needed.
 
 ![](2020-08-30-16-16-42.png)
@@ -49,6 +49,7 @@ It requires a separate Yaml file in the app folder which includes all deployment
 An example file directory looks like the following:
 
 ![](2020-08-30-17-13-19.png)
+
 Spin up a Kubernetes cluster --> Download the image from the Dockerhub --> Spin the image up in the pods.
 
 ## Kubeflow
@@ -58,7 +59,7 @@ Kubeflow is the machine learning toolkit for Kubernetes. Kubernetes is a open-so
 - scalability
 
 ### Kubeflow vs Airflow
-Airflow, developed by Airflow, is a generic task orchestration platform to programmaticaly author, schedule and monitor data pipelines. It authors workflows as directed acyclic graphs (DAGs) of tasks. Kubeflow is a machine learning toolkit that runs on Kubernetes. It is dedicated to making machine learning on Kubernetes easy, portable and scalable. Airflow and Kubeflow are primarily classified as "Workflow Manager" and "Machine Learning" tools respectively.
+Airflow, developed by Airbnb, is a generic task orchestration platform to programmaticaly author, schedule and monitor data pipelines. It authors workflows as directed acyclic graphs (DAGs) of tasks. Kubeflow is a machine learning toolkit that runs on Kubernetes. It is dedicated to making machine learning on Kubernetes easy, portable and scalable. Airflow and Kubeflow are primarily classified as "Workflow Manager" and "Machine Learning" tools respectively.
 
 Use Airflow if you need a mature, broad ecosystem that can run a variety of tasks; use Kubeflow if you are using Kubernetes and want a orchestration tool for machine learning.
 
