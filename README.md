@@ -17,16 +17,18 @@ I am currently a machine learning professional in the high-tech industry. This p
 
 7. [2019-03-01 Parse JSON Using Python](/blogs/2019-03-01-Parse_JSON_Using_Python.ipynb)
 
-8. [2019-11-01 Bokeh Interactive Visualization In Python App](/blogs/2019-11-01-Bokeh%20Interactive%20Visualization%20In%20Python%20App.MD)
+8. [2019-05-07 Monitoring Machine Learning Model in Production](/blogs/2019-05-07%20Monitoring%20Machine%20Learning%20Model%20in%20Production%20.md)
 
-9. [2020-01-12 Kubernetes and Kubeflow](/blogs/2020-01-12-Kubernetes%20and%20Kubeflow.md)
+9. [2019-11-01 Bokeh Interactive Visualization In Python App](/blogs/2019-11-01-Bokeh%20Interactive%20Visualization%20In%20Python%20App.MD)
 
-10. [2020-07-18 Hadoop and Spark for Data Scientists](/blogs/2020-07-18-Hadoop%20and%20Spark_for_Data_Scientists.md)
+10. [2020-01-12 Kubernetes and Kubeflow](/blogs/2020-01-12-Kubernetes%20and%20Kubeflow.md)
 
-11. [2020-07-26 A Good Mastery of PySpark](/blogs/2020-07-26-A%20Good%20Mastery%20of%20PySpark.md)
+11. [2020-07-18 Hadoop and Spark for Data Scientists](/blogs/2020-07-18-Hadoop%20and%20Spark_for_Data_Scientists.md)
 
-12. [2020-08-12 Code Testing in Python](/blogs/2020-08-12-Code%20Testing%20in%20Python.md)
+12. [2020-07-26 A Good Mastery of PySpark](/blogs/2020-07-26-A%20Good%20Mastery%20of%20PySpark.md)
 
-13. [2020-08-28 Embedding in Machine Learning](/blogs/2020-08-27-Embedding%20in%20Machine%20Learning.md)
+13. [2020-08-12 Code Testing in Python](/blogs/2020-08-12-Code%20Testing%20in%20Python.md)
 
-14. [2020-09-07 KDD2020 Conference Notes](/blogs/2020-09-07%20KDD2020%20Conference%20Notes.md)
+14. [2020-08-28 Embedding in Machine Learning](/blogs/2020-08-27-Embedding%20in%20Machine%20Learning.md)
+
+15. [2020-09-07 KDD2020 Conference Notes](/blogs/2020-09-07%20KDD2020%20Conference%20Notes.md)
