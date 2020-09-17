@@ -19,7 +19,7 @@ I am currently a machine learning professional in the high-tech industry. This p
 
 8. [2019-03-01 Parse JSON Using Python](/blogs/2019-03-01-Parse_JSON_Using_Python.ipynb)
 
-9. [2019-04-14 Putting Machine Learning Models Into Production]((/blogs/2019-04-14%20Putting%20Machine%20Learning%20Models%20Into%20Production%20.md)
+9. [2019-04-14 Putting Machine Learning Models Into Production](/blogs/2019-04-14%20Putting%20Machine%20Learning%20Models%20Into%20Production.md)
 
 10. [2019-05-07 Monitoring Machine Learning Model in Production](/blogs/2019-05-07%20Monitoring%20Machine%20Learning%20Model%20in%20Production%20.md)
 
