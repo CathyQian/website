@@ -18,7 +18,7 @@ Below is a summary of good coding style:
 - If you have several blocks of code that do very similar things, it often pays to refactor them into a single routine.
 - Try to separate boilerplate information (such as the way data is formatted) from the core processing logic of the program. For example, the order of columns in a table should usually be specified separately from the code, which processes the table.
 
-## Important Coding Principals
+## Important Coding Principles
 - Keep it simple, stupid (KISS)
 
      When optimization challenges simplicity, simplicity wins.
