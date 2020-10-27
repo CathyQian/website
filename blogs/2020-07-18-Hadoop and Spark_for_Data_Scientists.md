@@ -66,7 +66,7 @@ Cascading is a software abstraction layer for Apache Hadoop and Apache Flink. Ca
 
 ## Summary
 
-Hadoop is a software framework for data storage and running applications in clusters, while Spark is an engine for large-scale data processing. Spark does not have its own cluster resource manager and thus sometimes use Hadoop as cluster resource manager (i.e., in Qubole). MapReduce is the main Hadoop data processing API, however Spark is much faster than MapReduce and thus gaining more popularity, especially at the data science and machine learning field where large and complex data processing is needed.
+Hadoop is a software framework for **data storage** and **running applications** in clusters, while Spark is an engine for **large-scale data processing**. Spark does not have its own cluster resource manager and thus sometimes use Hadoop as cluster resource manager (i.e., in Qubole). MapReduce is the main Hadoop data processing API, however **Spark is much faster than MapReduce** and thus gaining more popularity, especially at the data science and machine learning field where large and complex data processing is needed.
 
 
 References:
