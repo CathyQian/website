@@ -1,3 +1,9 @@
+---
+layout: post
+title: A Good Mastery of PySpark
+date: 2020-07-26
+---
+
 ## What is PySpark?
 Apache Spark is a fast and general-purpose cluster computing system. At its core, it is a generic engine for processing large amounts of data. Spark is written in Scala and runs on the Java Virtual Machine. Spark has built-in components for processing streaming data, machine learning, graph processing, and even interacting with data via SQL. It provides high-level APIs in Java, Scalar, Python and R. Its Python API is called PySpark. 
 

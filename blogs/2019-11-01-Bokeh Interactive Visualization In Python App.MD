@@ -1,3 +1,9 @@
+---
+layout: post
+title: Bokeh Interactive Visualization in Python App
+date: 2019-11-01
+---
+
 # Why Bokeh?
 When building Python web-based apps, we usually need to insert some interactive graphs to make the webpage pretty. JavaScript can easily
 do the job. However, if we want to simplify our toolkit, for example, focus in using Python, and don't waste time learning JavaScript, we 

@@ -1,3 +1,9 @@
+---
+layout: post
+title: Good Software Engineering Practices
+date: 2018-11-05
+---
+
 # Good Software Engineering Practices
 
 This is a summary of good software engineering practices, especially for data scientists.

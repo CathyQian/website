@@ -1,3 +1,9 @@
+---
+layout: post
+title: Kubernetes and Kubeflow
+date: 2020-01-12
+---
+
 Let's start with some basic concepts and go to Kubernetes and Kubeflow later. 
 
 ## Microservices:

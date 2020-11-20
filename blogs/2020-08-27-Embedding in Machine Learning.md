@@ -1,3 +1,9 @@
+---
+layout: post
+title: Embedding in Machine Learning
+date: 2020-08-27
+---
+
 ## What is Embedding?
 Embedding in the context of deep learning is to map high-dimensional vectors or categorical variables to relatively low-dimensional space so that similar items are close to each other. It can be applied to any high dimensional, sparse or categorical features, i.e., IP addresses from ad impressions, raw pixels in a video, audio data from speech, texts from a job description. 
 

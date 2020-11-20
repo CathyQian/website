@@ -1,3 +1,9 @@
+---
+layout: post
+title: Putting Machine Learning Models Into Production
+date: 2019-04-14
+---
+
 # Putting Machine Learning Models Into Production
 
 **This is a collection of notes copied directly or indirectly from reference 1.**

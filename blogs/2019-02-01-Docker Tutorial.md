@@ -1,3 +1,9 @@
+---
+layout: post
+title: Docker Tutorial
+date: 2019-02-01
+---
+
 # Why use Docker?
 
 One thing we probably do on a daily basis as a data scientist or software engineer is probably clone a repository, install a bunch of software it depends on and try to run it in our own machine. The problem is very often we get into endless cycle of running into installation errors and trouble shooting. When you move the repository to a new environment, you have to reinstall the software again.

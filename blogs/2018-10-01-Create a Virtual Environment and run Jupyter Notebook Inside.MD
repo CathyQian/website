@@ -1,3 +1,9 @@
+---
+layout: post
+title: Creating a Virtual Environment and Run Jupyter Notebook Inside
+date: 2018-10-01
+---
+
 # Why do we need a virtual environment?
 A virtual environment creates an isolated environment for us to install needed packages to run a certain project without disrupting the 
 working environment of other projects. It is a widely used strategy to run multiple data science projects on the same computer.

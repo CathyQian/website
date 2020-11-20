@@ -1,3 +1,9 @@
+---
+layout: post
+title: Software Engineering Concepts for Data Scientist
+date: 2018-05-01
+---
+
 Data scientists usually need to talk with software engineers or data engineers about model deployment, production or data infrastructure. Therefore, it is quite useful to get to know common concepts in software engineering. Here I collected a list of basic software engineering concepts that may be frequently used by data scientists.
 
 # 1. API
