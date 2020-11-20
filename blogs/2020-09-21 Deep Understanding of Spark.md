@@ -3,23 +3,23 @@ I was recently asked about how much do you know about Spark in an interview. Spe
 Let's start with frequently asked interview questions and answers.
 
 1. What is Apache Spark?
-- It is a fast and general-purpose cluster computing system. At its core, it is a generic engine for processing large amounts of data. 
+- It is a fast and general-purpose **cluster computing system**. At its core, it is a generic engine for processing large amounts of data. 
 - It supports both real-time and batch processing
 
 2. Features of Spark
 - Polyglot: Spark provides high-level APIs in Java, Scala, Python and R. Spark code can be written in any of these four languages.
-- Speed: Spark runs upto 100 times faster than Hadoop MapReduce for large-scale data processing. Spark is able to achieve this speed through **controlled partitioning**. It manages data **using partitions that help parallelize distributed data processing with minimal network traffic**.
+- Speed: Spark runs up to 100 times faster than Hadoop MapReduce for large-scale data processing. Spark is able to achieve this speed through **controlled partitioning**. It manages data **using partitions that help parallelize distributed data processing with minimal network traffic**.
 - Multiple Formats: Spark supports multiple data sources such as Parquet, JSON, Hive and Cassandra. It supports the following three file systems: Hadoop Distributed File System (HDFS), local file system and AWS S3.
 - Lazy Evaluation: Apache Spark **delays its evaluation till it is absolutely necessary**. This is one of the key factors contributing to its speed. **For transformations, Spark adds them to a DAG of computation and only when the driver requests some data, does this DAG actually gets executed.**
-- Real Time Computation: Spark’s computation is real-time and has less latency because of its in-memory computation.
+- Real Time Computation: Spark’s computation is real-time and has less latency because of its **in-memory** computation.
 - Hadoop Integration: Apache Spark provides smooth compatibility with Hadoop. This is a great boon for all the Big Data engineers who started their careers with Hadoop. Spark is a potential replacement for the MapReduce functions of Hadoop, while Spark has the ability to run on top of an existing Hadoop cluster using YARN for resource scheduling. 
 - Machine Learning: Spark’s MLlib is the machine learning component which is handy when it comes to big data processing. 
 
 3. Compare Hadoop and Spark
 ![](2020-10-22-11-02-39.png)
 
-- Faster: Due to the availability of in-memory processing, Spark implements the processing around 10 to 100 times faster than Hadoop MapReduce.
-- Unlike Hadoop, Spark provides inbuilt libraries to perform multiple tasks from the same core like batch processing, Steaming, Machine learning, Interactive SQL queries. However, **Hadoop only supports batch processing.**
+- Faster: Due to the availability of **in-memory processing**, Spark implements the processing around 10 to 100 times faster than Hadoop MapReduce.
+- Unlike Hadoop, Spark provides inbuilt libraries to **perform multiple tasks from the same core** like batch processing, Steaming, Machine learning, Interactive SQL queries. However, **Hadoop only supports batch processing.**
 - Hadoop is highly **disk-dependent** whereas Spark promotes **caching and in-memory data storage**.
 - Spark is capable of performing computations multiple times on the same dataset. This is called **iterative computation** while there is no iterative computing implemented by Hadoop.
 
@@ -60,7 +60,7 @@ RDD stands for Resilient Distribution Datasets. An RDD is a **fault-tolerant** c
 - Parallelized Collections: Here, the existing RDDs running parallel with one another.
 - Hadoop Datasets: They perform functions on each file record in HDFS or other storage systems.
 
-RDDs are basically parts of data that are stored in the memory distributed across many nodes. RDDs are lazily evaluated in Spark. This lazy evaluation is what contributes to Spark’s speed.
+RDDs are basically **parts of data that are stored in the memory distributed across many nodes**. RDDs are lazily evaluated in Spark. This lazy evaluation is what contributes to Spark’s speed.
 
 RDDs can be created by one of the two methods:
 - By parallelizing a collection in your Driver program.
