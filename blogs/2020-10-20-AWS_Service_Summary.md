@@ -1,3 +1,9 @@
+---
+layout: post
+title: AWS Service Summary
+date: 2020-10-20
+---
+
 - s3
 - sagemaker
 - EC2 (Elastic Compute Cloud)

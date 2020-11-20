@@ -1,3 +1,10 @@
+---
+layout: post
+title: KDD2020 Conference Notes
+date: 2020-09-07
+---
+
+
 I have attended the annual KDD 2020 conference online recently and organized some of my notes as follows for future reference. It is simply my personal take-out from that conference and thus neither thorough or comprehensive. 
 
 Main algorithms used to solve challenging industry problems are deep learning algorithms. Other traditional methods are not used much in the posters. Some main concepts widely used in this conference include:

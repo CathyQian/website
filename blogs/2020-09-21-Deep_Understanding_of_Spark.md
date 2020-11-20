@@ -1,3 +1,9 @@
+---
+layout: post
+title: Deep Understanding of Spark
+date: 2020-09-21
+---
+
 I was recently asked about how much do you know about Spark in an interview. Specifically, the interviewer asked about what was happening when you use a certain spark function, such as groupby. This motivates me to get a deeper understanding of how Spark process data.
 
 Let's start with frequently asked interview questions and answers.
