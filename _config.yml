@@ -19,17 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Cathy Qian's Notes
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/myblog"
-url: "http://cathyqian.github.io"
-github_username:  cathyqian
-linkedin_username: zhaoxia-cathy-qian-ph-d-155b4a16
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 
+github_username:  cathyqian
+#linkedin_username: 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: minima
 plugins:
   - jekyll-feed
 
