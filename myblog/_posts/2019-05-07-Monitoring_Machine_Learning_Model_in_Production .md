@@ -24,7 +24,7 @@ So what should we monitor in productionalized machine learning models?
 How does one determine when the dataset has shifted sufficiently to pose a problem to our algorithms? If only certain features begin to diverge, how do we determine the trade-off between the loss of accuracy by removing features and the loss of accuracy by a misrepresented data distribution?
 - **Covariate shift**
     Distribution of the input features change while no change in the underlying relationship (mapping function)
-	![](2020-09-16-11-56-26.png)
+	![](/assets/2020-09-16-11-56-26.png)
 	Problem: cross validation is biased
 	
 - **Prior probability shift**
@@ -42,22 +42,22 @@ How does one determine when the dataset has shifted sufficiently to pose a probl
 - Basic statistics: median, mean, standard deviation, max/min
 - Statistical Distance: plot distribution of features for train and test, measure their divergence (or statistical distance)
 	
-    ![](2020-09-16-11-57-24.png)
+    ![](/assets/2020-09-16-11-57-24.png)
 
 	Population Stability Index (PSI): 
-	![](2020-09-16-11-57-39.png)
+	![](/assets/2020-09-16-11-57-39.png)
 	
-	![](2020-09-16-11-57-51.png)
+	![](/assets/2020-09-16-11-57-51.png)
 	
 	Histogram intersection: calculates the similarity of two discretized probability distributions (histograms), with possible value of the intersection lying between 0 (no overlap) and 1 (identical distributions)
 	
 	KL divergence: 
-	![](2020-09-16-11-58-04.png)
+	![](/assets/2020-09-16-11-58-04.png)
 
     Kolmogorov-Smirnov statistic: quantifies a distance between the empirical distribution functions of two samples. 
-	![](2020-09-16-11-58-12.png)
+	![](/assets/2020-09-16-11-58-12.png)
 
-	![](2020-09-16-11-58-22.png)
+	![](/assets/2020-09-16-11-58-22.png)
 
 
 - Discriminative Distance
@@ -75,7 +75,7 @@ How does one determine when the dataset has shifted sufficiently to pose a probl
 	Essentially, you try to change your training data set such that it looks like it was drawn from the test data set.
 
 - **Retrain model** using more recent data (for data drift related to seasonality) regularly
-	![](2020-09-16-11-58-36.png)
+	![](/assets/2020-09-16-11-58-36.png)
 
 - **Data Preparation**
 

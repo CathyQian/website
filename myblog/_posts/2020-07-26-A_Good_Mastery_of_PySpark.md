@@ -21,7 +21,7 @@ PySpark offers PySpark Shell which links the Python API to the spark core and in
 - Install findspark using ```pip install findspark``` in Anaconda command prompt so that you can use pyspark in any IDE including Jupyter Notebook
 
 ## How does Spark work
-![](2020-07-28-05-24-21.png)
+![](/assets/2020-07-28-05-24-21.png)
 
 Spark Cluster Overview from [Apache Spark](https://spark.apache.org/docs/latest/cluster-overview.html)
 

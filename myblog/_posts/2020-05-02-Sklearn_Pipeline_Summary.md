@@ -1,4 +1,8 @@
-sklean pipeline
+---
+layout: post
+title: Sklearn Pipeline
+date: 2020-10-20
+---
 
 https://medium.com/vickdata/a-simple-guide-to-scikit-learn-pipelines-4ac0d974bdcf
 https://towardsdatascience.com/a-simple-example-of-pipeline-in-machine-learning-with-scikit-learn-e726ffbb6976

@@ -22,7 +22,7 @@ Let's start with frequently asked interview questions and answers.
 - Machine Learning: Spark’s MLlib is the machine learning component which is handy when it comes to big data processing. 
 
 3. Compare Hadoop and Spark
-![](2020-10-22-11-02-39.png)
+![](/assets/2020-10-22-11-02-39.png)
 
 - Faster: Due to the availability of **in-memory processing**, Spark implements the processing around 10 to 100 times faster than Hadoop MapReduce.
 - Unlike Hadoop, Spark provides inbuilt libraries to **perform multiple tasks from the same core** like batch processing, Steaming, Machine learning, Interactive SQL queries. However, **Hadoop only supports batch processing.**
@@ -35,7 +35,7 @@ Let's start with frequently asked interview questions and answers.
 - YARN: Spark applications can also be run on YARN
 - Batch & Real Time Processing: MapReduce and Spark are used together where MapReduce is used for batch processing and Spark for real-time processing.
 
-![](2020-10-22-11-40-14.png)
+![](/assets/2020-10-22-11-40-14.png)
 
 8. Name the components of Spark Ecosystem.
 - Spark Driver: a program that runs on the master node of the machine and declares transformation and actions on data RDDs. It creates SparkContext, connected to a given Spark Master and delivers the RDD graphs to Master.
@@ -126,5 +126,6 @@ Minimizing data transfers and avoiding shuffling helps write spark programs that
     Using Accumulators – Accumulators help update the values of variables in parallel while executing.
 
 The most common way is to avoid operations ByKey, repartition or any other operations which trigger shuffles.
+
 References:
 1. https://www.edureka.co/blog/interview-questions/top-apache-spark-interview-questions-2016/
