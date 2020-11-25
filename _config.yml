@@ -23,13 +23,29 @@ title: Cathy Qian's Notes
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
-
+url: "http://cathyqian.github.io"
+markdown: kramdown
 github_username:  cathyqian
-#linkedin_username: 
+# linkedin_username: 
 # Build settings
 theme: minima
+minima:
+  #skin: classic (not working)
+  date_format: "%Y-%m-%d"
+
 plugins:
   - jekyll-feed
+
+header_pages:
+  - about.md
+  - techblogs.md
+  - readings.md
+  - resume.md
+  - misc.md
+  - archieves.md
+
+#disqus:
+#  shortname: my_disqus_shortname
 
 # Exclude from processing.
 # The following items will not be processed, by default.

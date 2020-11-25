@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Technology
+title: Tech Blogs
 permalink: /tech/
 ---
