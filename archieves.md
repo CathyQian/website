@@ -23,11 +23,11 @@ permalink: /archieves/
 
 9. [2019-04-14 Putting Machine Learning Models Into Production](/_posts/2019-04-14-Putting_Machine_Learning_Models_Into_Production.md)
 
-10. [2019-05-07 Monitoring Machine Learning Model in Production](/_posts/2019-05-07-Monitoring_Machine_Learning_Model_In_Production.md)
+10. [2019-05-07 Monitoring Machine Learning Model in Production](/_posts/2019-05-07-Monitoring_Machine_Learning_Model_in_Production.md)
 
 11. [2019-11-01 Bokeh Interactive Visualization In Python App](/_posts/2019-11-01-Bokeh_Interactive_Visualization_In_Python_App.MD)
 
-12. [2020-01-12 Kubernetes and Kubeflow](/_posts/2020-01-12-Kubernetes_and_Kubeflow.md)
+12. [2020-01-12 Kubernetes and Kubeflow](/_posts/i2020-01-12-Kubernetes_and_Kubeflow.md)
 
 13. [2020-07-18 Hadoop and Spark for Data Scientists](/_posts/2020-07-18-Hadoop_and_Spark_for_Data_Scientists.md)
 
