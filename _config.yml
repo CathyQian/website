@@ -26,6 +26,7 @@ github_username:  cathyqian
 #linkedin_username: 
 # Build settings
 theme: minima
+
 minima:
   skin: dark
   date_format: "%Y-%m-%d"
@@ -41,8 +42,9 @@ header_pages:
   - misc.md
   - archieves.md
 
-#disqus:
-#  shortname: my_disqus_shortname
+# Disqus comments
+disqus:
+  shortname: comments-agknmspvjk
 
 # Exclude from processing.
 # The following items will not be processed, by default.
