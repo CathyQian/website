@@ -18,19 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Cathy Qian's Notes
-# description: >- # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
+title: Cathy's Notes
+description: © 2020 Cathy Qian · Powered by Jekyll
 url: "http://cathyqian.github.io"
 markdown: kramdown
 github_username:  cathyqian
-# linkedin_username: 
+#linkedin_username: 
 # Build settings
 theme: minima
 minima:
-  #skin: classic (not working)
+  skin: dark
   date_format: "%Y-%m-%d"
 
 plugins:
