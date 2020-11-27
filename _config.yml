@@ -43,8 +43,8 @@ header_pages:
   - archieves.md
 
 # Disqus comments
-disqus:
-  shortname: comments-agknmspvjk
+# disqus:
+#  shortname: comments-agknmspvjk
 
 # Exclude from processing.
 # The following items will not be processed, by default.
