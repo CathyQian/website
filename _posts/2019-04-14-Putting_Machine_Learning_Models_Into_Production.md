@@ -2,15 +2,15 @@
 layout: post
 title: Putting Machine Learning Models Into Production
 date: 2019-04-14
+comments: true
 ---
 
-# Putting Machine Learning Models Into Production
 
 **This is a collection of notes copied directly or indirectly from reference 1.**
 
 The deployment of machine learning models is the process for making your models available in production environments, where they can provide predictions to other software systems. It is only once models are deployed to production that they start adding value, making deployment a crucial step. 
 
-**Why hard?**
+# Why so hard?
 
 Machine learning systems have all the challenges of traditional code, plus an additional set of machine learning-specific issues. 
 
@@ -36,7 +36,7 @@ Machine learning systems have all the challenges of traditional code, plus an ad
 
 Machine learning system design needs to be planned at a system level instead of isolated model deployment. Initial deployment is not that hard, the hardest part is the ongoing system maintenance, the updates and experiments, the auditing and monitoring that are where the real technical debts starts to build up.
 
-## Machine Learning System Architecture
+# Machine Learning System Architecture
 
 Start with business requirements and wider company goals:
 - Do you need to be able to serve predictions in real time (and if so, do you mean like, within a dozen milliseconds or after a second or two), or will delivery of predictions 30 minutes or a day after the input data is received suffice?
@@ -74,17 +74,17 @@ Here is a summary of some technical keypoints:
 
 - Use CI/CD (continuous integration / continuous deployment) tool (i.e., Jenkens, GitLab) to allowing delivering code changes more frequently and reliably. If you use Kubernetes as an orchestrator you should consider GitLab for CI/CD. It natively supports Kubernetes and works with multiple clusters.
 
-## Deployment strategy:
+# Deployment strategy:
 - Shadow mode: Version B receives real-world traffic alongside version A while doesn’t impact the response.
 - Canary deployments: Version B is released to a subset of users, then proceed to a full rollout.
 
-## Test
+# Test
 Traditional software test such as unit test, integration test and system test should be done. In addition, the following tests specific to machine learning systems should also be included:
 - **Differential Tests**: Where you compare the average/per row predictions given by a new model vs. the predictions given by the old model on a standard **test dataset**. You need to tweak the sensitivity of these tests depending on the model use case. These tests can be vital for detecting otherwise healthy-seeming models, for example where an outdated dataset has been used in training, or a feature has been accidentally removed from the feature selection code. 
 - **Benchmark Tests**: These tests compare the time taken to either train or serve predictions from your model from one version to the next. They prevent you from introducing inefficient code additions to your ML applications.
 - **Load/Stress tests**: These are not really ML-specific, but given the unusually large CPU/Memory demands of some ML applications, these sorts of tests are particularly worth performing.
 
-## Deployment
+# Deployment
 Don't try and reinvent the wheel, using established software engineering practices instead.
 
 Many companies have their own platform:
@@ -93,7 +93,7 @@ Many companies have their own platform:
 - Google has TFX
 - Databricks have MLFlow
 
-## Trend
+# Trend
 
 Kubeflow aims to simplify machine learning on Kubernetes. It’s still relatively new, with all the risks that entails, but it will enable smaller teams with less DevOps expertise to do complex container orchestration for machine learning tasks.
 
@@ -108,7 +108,7 @@ Client-side machine learning with TensorFlow.js. This is still very bleeding edg
 Growth of so called “real time” ML systems, where models are updated constantly as new data streams come in. This is in part helped by the established position Apache Kafka has now created, but there are interesting alternatives gaining traction such as Apache Pulsar.
 
 
-References:
+# References:
 1. https://christophergs.com/machine%20learning/2019/03/17/how-to-deploy-machine-learning-models/#architecture
 
 2. https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf

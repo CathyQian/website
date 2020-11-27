@@ -2,6 +2,7 @@
 layout: post
 title: Docker Tutorial
 date: 2019-02-01
+comments: true
 ---
 
 # Why use Docker?
@@ -174,7 +175,7 @@ For example,
 docker load -i dockerimage.tar
 ```
 
-References:
+# References:
 
 1, https://medium.com/coinmonks/docker-in-a-nutshell-6b3985a58d68
 

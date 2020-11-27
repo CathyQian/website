@@ -2,6 +2,7 @@
 layout: post
 title: Parse JSON Using Python
 date: 2019-03-01
+comments: true
 ---
 
 Using weather API to deploy a HTTP GET call: https://api.weather.gov/gridpoints/TOP/31,80 in Postman, we will get the following JSON file as a return.
@@ -88,6 +89,6 @@ data[0]["context"][1]["wx"]
 
 ```
 
-References:
+# References:
 1. https://developer.rhino3d.com/guides/rhinopython/python-xml-json/
 2. https://docs.python.org/3.7/library/json.html#py-to-json-table

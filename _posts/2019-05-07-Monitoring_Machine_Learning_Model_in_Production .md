@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Monitoring Machine Learning Models in Production
+title: Monitoring Machine Learning Models In Production
 date: 2019-05-07
+comments: true
 ---
 
-# Monitoring Machine Learning Models in Production
 Like any software system, machine learning models in production also needs to be monitored. We need to monitor not only the infrastructure healthiness, but also the data shift as machine learning systems has the 'change anything change everything' feature. 
 
 So what should we monitor in productionalized machine learning models?
@@ -18,9 +18,9 @@ So what should we monitor in productionalized machine learning models?
     - System reliability (Uptime)
     - Auditability 
 
-## Dataset shift
+# Dataset shift
 
-### Types of dataset shift
+Types of dataset shift
 How does one determine when the dataset has shifted sufficiently to pose a problem to our algorithms? If only certain features begin to diverge, how do we determine the trade-off between the loss of accuracy by removing features and the loss of accuracy by a misrepresented data distribution?
 - **Covariate shift**
     Distribution of the input features change while no change in the underlying relationship (mapping function)
@@ -38,7 +38,7 @@ How does one determine when the dataset has shifted sufficiently to pose a probl
 
 	Sometimes there can be operational changes in the data pipeline upstream which could have an impact on the model quality. For example, changes to feature encoding such as switching from Fahrenheit to Celsius and features that are no longer being generated leading to null or missing values, a feature is not available in production, etc.
 
-## Identify dataset shift
+# Identify dataset shift
 - Basic statistics: median, mean, standard deviation, max/min
 - Statistical Distance: plot distribution of features for train and test, measure their divergence (or statistical distance)
 	
@@ -64,7 +64,7 @@ How does one determine when the dataset has shifted sufficiently to pose a probl
 
 	Train a model to classify whether the data is from train or test. The better the classifier is, the more different the train and test data is.
 
-## Handling dataset shift
+# Handling dataset shift
 - **Feature removal**
     
     Remove the features related to the drift. There is a trade-off between number of features and model accuracy.
@@ -82,11 +82,11 @@ How does one determine when the dataset has shifted sufficiently to pose a probl
     In some domains, such as time series problems, the data may be expected to change over time.
 	In these types of problems, it is common to prepare the data in such a way as to remove the systematic changes to the data over time, such as trends and seasonality by differencing. This is so common that it is built into classical linear methods like the ARIMA model.
 
-## Tools 
+# Tools 
 Dashboard can be created with Prometheus or Grafana to track our model standard statistical metrics.
 Kibana, an open-source analytics and visualization platform which is part of the elastic starck, can be used to search, view, and interact with logs stored in Elasticsearch indices; other options includes logz.io and Splunk.
 
-## Field Trend: 
+# Field Trend: 
 
 The big AI players are trying to implementing their own machine learning model monitoring solution, for example Microsoft has introduced “Data Drift” in Azure ML Studio, or AWS's Amazon SageMaker Model Monitor.
 

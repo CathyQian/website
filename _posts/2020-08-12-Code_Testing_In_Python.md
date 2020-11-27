@@ -2,11 +2,12 @@
 layout: post
 title: Code Testing in Python
 date: 2020-08-12
+comments: true
 ---
 
 How can you perform testing in Python?
 
-## unittest
+# unittest
 Python packages a unit testing framework called <Unittest>. It supports the following features:
 - Automation testing.
 - Sharing of setup and shutdown code for tests.
@@ -50,7 +51,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-## Test case in coding interview
+# Test case in coding interview
 
 Procedure for coding interview:
 - talk out loud about your thoughts
@@ -114,5 +115,5 @@ if __name__ == "__main__":
     main()
 ```
 
-References:
+# References:
 1. https://docs.python-guide.org/writing/tests/

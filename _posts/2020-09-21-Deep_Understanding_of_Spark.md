@@ -2,6 +2,7 @@
 layout: post
 title: Deep Understanding of Spark
 date: 2020-09-21
+comments: true
 ---
 
 I was recently asked about how much do you know about Spark in an interview. Specifically, the interviewer asked about what was happening when you use a certain spark function, such as groupby. This motivates me to get a deeper understanding of how Spark process data.
@@ -127,5 +128,5 @@ Minimizing data transfers and avoiding shuffling helps write spark programs that
 
 The most common way is to avoid operations ByKey, repartition or any other operations which trigger shuffles.
 
-References:
+# References:
 1. https://www.edureka.co/blog/interview-questions/top-apache-spark-interview-questions-2016/

@@ -2,14 +2,15 @@
 layout: post
 title: A Good Mastery of PySpark
 date: 2020-07-26
+comments: true
 ---
 
-## What is PySpark?
+# What is PySpark?
 Apache Spark is a fast and general-purpose cluster computing system. At its core, it is a generic engine for processing large amounts of data. Spark is written in Scala and runs on the Java Virtual Machine. Spark has built-in components for processing streaming data, machine learning, graph processing, and even interacting with data via SQL. It provides high-level APIs in Java, Scalar, Python and R. Its Python API is called PySpark. 
 
 PySpark offers PySpark Shell which links the Python API to the spark core and initializes the Spark context. Majority of data scientists and analytics experts today use Python because of its rich library set. Integrating Python with Spark is a boon to them.
 
-## How to install PySpark?
+# How to install PySpark?
 
 - Download Java 8 or above [here](https://java.com/en/download/)
 - Install Spark [here](http://spark.apache.org/downloads.html) 
@@ -20,19 +21,19 @@ PySpark offers PySpark Shell which links the Python API to the spark core and in
 - Install pyspark using ```pip install pyspark``` (you need to have both Python and Spark installed before this step) in Anaconda command prompt
 - Install findspark using ```pip install findspark``` in Anaconda command prompt so that you can use pyspark in any IDE including Jupyter Notebook
 
-## How does Spark work
+# How does Spark work
 ![](/assets/2020-07-28-05-24-21.png)
 
 Spark Cluster Overview from [Apache Spark](https://spark.apache.org/docs/latest/cluster-overview.html)
 
-#### Cluster Manager
+### Cluster Manager
 Accoring to Apache Spark official website, Spakr currently supports several cluster managers:
 - Standalone – a simple cluster manager included with Spark that makes it easy to set up a cluster.
 - Apache Mesos – a general cluster manager that can also run Hadoop MapReduce and service applications.
 - Hadoop YARN – the resource manager in Hadoop 2.
 - Kubernetes – an open-source system for automating deployment, scaling, and management of containerized applications.
 
-#### SparkContext
+### SparkContext
 SparkContext is the main entry point for Spark functionality. It represents the connection to a Spark cluster, and can be used to create RDDs, accumulators, coordinate Spark applications and broadcast variables on that cluster. A Spark context is essentially a client of Spark’s execution environment and acts as the master of your Spark application. Creating a SparkContext is the most important step and the first step you need to create before using any Spark application. 
 
 The following code shows how to initiate a SparkContext in a local cluster (single-machine mode):
@@ -51,7 +52,7 @@ sc = SparkContext(conf=conf)
 
 ```
 
-#### RDD 
+### RDD 
 RDD stands for Resilient Distributed Dataset. They are the elements that run and operate on multiple nodes to do parallel processing on a cluster. RDDs are **immutable** and can **recover automatically** in case of any failure. RDDs can be created directly from input files or a newly defined data as follows.
 
 ```
@@ -73,15 +74,15 @@ lineLengths = lines.map(lambda s: len(s))
 totalLength = lineLengths.reduce(lambda a, b: a + b)
 ```
 
-## Spark ML
+# Spark ML
 Spark ML is a package aims to provide a uniform set of high-level APIs to help users create and tune practical machine learning pipelines. It is currently available only in Java and Scala.
 
-## Changing Python code to PySpark code
+# Changing Python code to PySpark code
 PySpark is the Python API for Spark. It allows data scientist to do big data processing and distributed computing without knowing Java or Scala.
 
 For beginners, changing Python code to PySpark code is a good way to get familiar with PySpark. Below is a collection of common Python code used in data science and their PySpark version.
 
-#### create pandas or PySpark dataframe
+### create pandas or PySpark dataframe
 ```
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
@@ -96,12 +97,12 @@ pandas_df = pd.DataFrame.from_dict(records)
 pyspark_df = sqlContext.createDataFrame(records)
 ```
 
-#### Spark dataframe to pandas dataframe
+### Spark dataframe to pandas dataframe
 ```
 pandas_df = pyspark_df.toPandas()
 ```
 
-#### filter data in pandas or PySpark dataframe
+### filter data in pandas or PySpark dataframe
 ```
 pandas_df[~pandas_df['color'].isin(["red"])]
 
@@ -109,13 +110,13 @@ pyspark_df.filter(~pyspark_df['color'].isin(['red'])).collect()
 # pyspark_df.filter((df.col1< 3)&(df.col2 > 4))
 ```
 
-#### drop columns
+### drop columns
 ```
 pandas_df = pandas_df.drop([col1, col2])
 pyspark_df = pyspark_df.drop(col1, col2)
 ```
 
-#### convert dataframe to numpy array
+### convert dataframe to numpy array
 ```
 # python
 df.col_name.values
@@ -124,19 +125,19 @@ df.col_name.values
 np.array(df.select(col1, col2).collect())
 ```
 
-#### dataframe dimension
+### dataframe dimension
 ```
 print(len(pandas_df.index), len(pandas_df.columns))
 print(pyspark_df.count(), len(pyspark_df.columns))
 ```
 
-#### locate cretain elements
+### locate cretain elements
 ```
 pandas_df[col_name].iloc[i]
 pyspark_df.collect()[i][col_name]
 ```
 
-#### update column content
+### update column content
 ```
 # python
 pandas_df.loc[:, col_name] = new_content
@@ -147,7 +148,7 @@ udf = UserDefinedFunction(lambda x: 'new_value', StringType())
 new_df = old_df.select(*[udf(column).alias(name) if column == name else column for column in old_df.columns])
 ```
 
-#### add a new column to a dataframe
+### add a new column to a dataframe
 ```
 # python
 pandas_df.loc[:, 'rate_type'] = pd.Series(np.array(rate_type))
@@ -161,13 +162,13 @@ from pyspark.sql.functions import lit
 df.withColumn('new_column', lit(10))
 ```
 
-#### map column names to lower case
+### map column names to lower case
 ```
 pandas_df.columns = list[map(str.lower, pandas_df.columns)]
 pyspark_df.toDF(*[c.lower() for c in df.columns])
 ```
 
-#### rename columns
+### rename columns
 ```
 from pyspark.sql.functions import col
 	
@@ -175,37 +176,37 @@ pandas_df = pandas_df.rename(index=str, columns={"supplier_conf_number": "confir
 pyspark_df = pyspark_df.selectExpr("supplier_conf_number as confirmation_number")
 ```
 
-#### group by
+### group by
 ```
 pandas_df.col_name.value_counts()
 pyspark_df.groupBy('col_name').count().orderBy('count')
 ```
 
-#### merge dataframes
+### merge dataframes
 ```
 merged_pandas_df = pd.merge(pandas_df1,pandas_df2[[col1, col2, col3]],on=[col1, col2], how='outer')
 merged_pyspark_df = pyspark_df1.join(pyspark_df2, pyspark_df1['col1'] == pyspark_df2['col2'], "outer")
 ```
 
-#### drop duplicates
+### drop duplicates
 ```
 pandas_df = pandas_df.drop_duplicates(subset=['col1', 'col2', 'col3'])
 pyspark_df = pyspark_df.dropDuplicates(['col1', 'col2'])
 ```
 
-#### drop null value
+### drop null value
 ```
 pandas_df = pandas_df.dropna(subset=[col_name], how = 'any')
 pyspark_df = pyspark_df.filter(pyspark_df.col_name.isNotNull())
 ```
 
-#### column multiplication
+### column multiplication
 ```
 pandas_df[''new_col']  = pandas_df['col1'] * pandas_df['col2'] * pandas_df['col3']
 pyspark_df = pandas_df.withColumn('new_col', pandas_df['col1'] * pandas_df['col2'] * pandas_df['col3'] )
 ```
 
-#### one-hot encoding
+### one-hot encoding
 ```
 # Python 
 pandas_df = pd.get_dummies(pandas_df, prefix_sep="__", columns=cat_columns)
@@ -226,7 +227,7 @@ for category in categories:
     df = df.withColumn(new_column_name, function(col(col_name)))
 ```
 
-#### save to csv file
+### save to csv file
 ```
 pandas_df.to_csv(local_file_path, sep=',', header=True, index=False)
 
@@ -238,7 +239,7 @@ pyspark_df.coalesce(1).write.option("header", "true").csv("local_file_path.csv")
 pyspark_df.write.csv(local_file_path, header=True)
 ```
 
-Reference:
+# Reference:
 1. https://www.tutorialspoint.com/pyspark/index.htm
 2. https://realpython.com/pyspark-intro/
 3. https://medium.com/@naomi.fridman/install-pyspark-to-run-on-jupyter-notebook-on-windows-4ec2009de21f

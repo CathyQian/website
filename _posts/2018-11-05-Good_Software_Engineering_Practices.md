@@ -2,19 +2,19 @@
 layout: post
 title: Good Software Engineering Practices
 date: 2018-11-05
+comments: true
 ---
 
-# Good Software Engineering Practices
 
 This is a summary of good software engineering practices, especially for data scientists.
 
-## Start with requirement analysis and architecture design
+# Start with requirement analysis and architecture design
 
 Architecture first. Writing code without thinking of its architecture is useless in the same way as dreaming about your desires without a plan of achieving them.
 Before writing the first line of the code, you should understand what it will be doing, how, what it will use, how modules, services will work with each other, what structure will it have, how it will be tested and debugged, and how it will be updated.
 
 
-## Use good coding style, even not for production code
+# Use good coding style, even not for production code
 
 Below is a summary of good coding style:
 - Always use descriptive names for variables and functions so that readers can tell the function of the code with as little documentation as possible.
@@ -24,7 +24,7 @@ Below is a summary of good coding style:
 - If you have several blocks of code that do very similar things, it often pays to refactor them into a single routine.
 - Try to separate boilerplate information (such as the way data is formatted) from the core processing logic of the program. For example, the order of columns in a table should usually be specified separately from the code, which processes the table.
 
-## Important Coding Principles
+# Important Coding Principles
 - Keep it simple, stupid (KISS)
 
      When optimization challenges simplicity, simplicity wins.
@@ -54,16 +54,16 @@ Below is a summary of good coding style:
 
     Do it well so that other people can understand what you are doing easily.
 
-## Code Review
+# Code Review
 
 The purpose of code review is to improve the code quality, not to learn the code. It is more useful to ask people who is part of the project to do the code review rather than someone else who is new to the code.
 
-## Test
+# Test
 
 Test is an essential part of the code to gurantee the success of the code development. 
 
 
-References:
+# References:
 1. https://www.cs.utexas.edu/~mitra/csSummer2014/cs312/lectures/bestPractices.html
 2. https://opensource.com/article/17/5/30-best-practices-software-development-and-testing
 3. https://litslink.com/blog/what-are-software-engineering-best-practices
