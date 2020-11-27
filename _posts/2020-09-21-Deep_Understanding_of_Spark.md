@@ -36,7 +36,7 @@ Let's start with frequently asked interview questions and answers.
 - YARN: Spark applications can also be run on YARN
 - Batch & Real Time Processing: MapReduce and Spark are used together where MapReduce is used for batch processing and Spark for real-time processing.
 
-![](/assets/2020-10-22-11-40-14.png)
+    ![](/assets/2020-10-22-11-40-14.png)
 
 8. Name the components of Spark Ecosystem.
 - Spark Driver: a program that runs on the master node of the machine and declares transformation and actions on data RDDs. It creates SparkContext, connected to a given Spark Master and delivers the RDD graphs to Master.
@@ -123,8 +123,8 @@ The following are some of the demerits of using Apache Spark:
 
 Minimizing data transfers and avoiding shuffling helps write spark programs that run in a fast and reliable manner. The various ways in which data transfers can be minimized when working with Apache Spark are:
 
-    Using Broadcast Variable- Broadcast variable enhances the efficiency of joins between small and large RDDs.
-    Using Accumulators – Accumulators help update the values of variables in parallel while executing.
+- Using Broadcast Variable- Broadcast variable enhances the efficiency of joins between small and large RDDs.
+- Using Accumulators – Accumulators help update the values of variables in parallel while executing.
 
 The most common way is to avoid operations ByKey, repartition or any other operations which trigger shuffles.
 
