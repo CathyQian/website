@@ -142,5 +142,5 @@ Multitask learning enables you to do multiple tasks with one neural network. It 
 ![](/assets/2020-08-30-13-59-06.png)
 ![](/assets/2020-08-30-14-04-42.png)
 
-References:
+# References:
 1. https://www.youtube.com/watch?v=UdXfsAr4Gjw

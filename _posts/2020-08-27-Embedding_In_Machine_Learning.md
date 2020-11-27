@@ -31,12 +31,13 @@ Main methods for embedding includes the following:
 - Supervised learning. That is to train an embedding as part of a larger neural network model. Please see the embedding in recommendation system example for details.
 
 # Embedding Examples
-## Embedding in Recommendation Systems
+
+### Embedding in Recommendation Systems
 Recommendation system predicts the interest of a user for a given item. Collaborative filtering, which predicts the interests of a user based on the interest of similar users, is the most popular method used to build a recommender system. To solve this problem, we need to know which users are similar to each other and which movies are similar to each other. Thus we need user embeddings and item embeddings. Before using embedding, think about what alternatives do we have? We can always represent each movie with a sparse vector based on user-movie interactions using one-hot encoding. However, the problem of that method is 1) we are going to deal with sparse vectors in our modeling process, which is quite a pain because we need more data and much more computation power to train and 2) similar vector doesn't mean similar items. That's why we need to use embedding instead. How? Train an embedding as part of a larger neural network. The problem can be reframed as a supervised learning problem with input as the feature vectors of the movie and output as each user's interest of the movie (probabilistic multi-class classification problem). Here the input feature vector contains user movie vector which is a sparse vector and any other features. Let's say there are 5000 movies and 1000 users. Each user movie vector will be 1 x 1000 sparse vector with 1 as like and 0 as not like by the user i (i from 0 to 999). The output will be a 1 x 1000 vector with probability of likes by the user i ( i from 0 to 999). We include a three dimensional embedding layer to convert the sparse user movie vector to a three dimensional embedding layer (see Schema below, from Google). The empirical rule of thumb is the dimension of the embedding layer is approximately (possible values)^0.25 (start with this number and further tune it to get optimal dimension).
 
 ![](/assets/2020-08-28-09-42-13.png)
 
-## Image embedding
+### Image embedding
 Pinterest example
 
 # Embedding Visualization - t-SNE
