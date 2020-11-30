@@ -2,7 +2,7 @@
 layout: post
 title: Putting Machine Learning Models Into Production
 date: 2019-04-14
-comments: true
+comments_id: 9
 ---
 
 

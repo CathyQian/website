@@ -2,7 +2,7 @@
 layout: post
 title: Creating a Virtual Environment and Run Jupyter Notebook Inside
 date: 2018-10-01
-comments: true
+comments_id: 4
 ---
 
 # Why do we need a virtual environment?

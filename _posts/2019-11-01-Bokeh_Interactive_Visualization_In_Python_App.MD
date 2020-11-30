@@ -2,7 +2,7 @@
 layout: post
 title: Bokeh Interactive Visualization in Python App
 date: 2019-11-01
-comments: true
+comments_id: 11
 ---
 
 # Why Bokeh?

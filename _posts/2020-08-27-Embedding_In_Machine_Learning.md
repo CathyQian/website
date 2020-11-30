@@ -2,7 +2,7 @@
 layout: post
 title: Embedding in Machine Learning
 date: 2020-08-27
-comments: true
+comments_id: 17
 ---
 
 # What is Embedding?

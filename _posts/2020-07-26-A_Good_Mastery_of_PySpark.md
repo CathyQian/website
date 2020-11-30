@@ -2,7 +2,7 @@
 layout: post
 title: A Good Mastery of PySpark
 date: 2020-07-26
-comments: true
+comments_id: 15
 ---
 
 # What is PySpark?

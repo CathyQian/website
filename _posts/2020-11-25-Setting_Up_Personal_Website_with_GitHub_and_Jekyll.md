@@ -4,7 +4,7 @@ title: Setting Up Personal Website with GitHub and Jekyll
 description: A brief tutorial on how to set up personal website with GithHub and Jekyll
 date: 2020-11-25
 tags: marketing, Jekyll, GitHub
-comments: true
+comments_id: 22
 ---
 
 Both GitHub and Jekyll has detailed documentation on how to set up a personal website, however, it can still be quite a time-consuming process. This article aims to provide a concise step-by-step tutorial on how to set up a basic website from ground zero. Once you master the basics, life will be much easier.

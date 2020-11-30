@@ -2,7 +2,7 @@
 layout: post
 title: Parse JSON Using Python
 date: 2019-03-01
-comments: true
+comments_id: 8
 ---
 
 Using weather API to deploy a HTTP GET call: https://api.weather.gov/gridpoints/TOP/31,80 in Postman, we will get the following JSON file as a return.

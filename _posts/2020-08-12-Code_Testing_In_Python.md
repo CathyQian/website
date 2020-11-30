@@ -2,7 +2,7 @@
 layout: post
 title: Code Testing in Python
 date: 2020-08-12
-comments: true
+comments_id: 16
 ---
 
 How can you perform testing in Python?

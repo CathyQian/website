@@ -4,7 +4,7 @@ title: AWS Service Summary
 description: A short summary of AWS services used widely by data scientists.
 date: 2020-10-20
 tags: data science, machine learning, AWS, software engineering
-comments: true
+comments_id: 21
 ---
 
 - s3

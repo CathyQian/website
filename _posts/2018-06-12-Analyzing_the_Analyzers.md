@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Analyzing the analyzers
+title: Analyzing the Analyzers
 date: 2018-06-12
-comments: true
+comments_id: 3
 ---
 
 This blog is a summary of the following book:

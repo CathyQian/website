@@ -10,7 +10,7 @@ permalink: /archieves/
 
 20. [2020-10-10 Sklearn Pipeline Summary](/_posts/2020-10-10-Sklearn_Pipeline_Summary.md)
 
-19. [2020-09-27 Hive](/_posts/2020-09-27-Hive.md)
+19. [2020-09-27 Hive 101](/_posts/2020-09-27-Hive_101.md)
 
 18. [2020-09-21 Deep Understanding of Spark](/_posts/2020-09-21-Deep_Understanding_of_Spark.md)
 
@@ -36,7 +36,7 @@ permalink: /archieves/
 
 7. [2019-02-01 Docker Tutorial](/_posts/2019-02-01-Docker_Tutorial.md)
 
-6. [2019-01-01 Data Visualization Template](/_posts/2019-01-01-Data_Visualization_Template.ipynb) 
+6. [2019-01-01 Data Visualization Template](/_posts/2019-01-01-Data_Visualization_Template.html) 
 
 5. [2018-11-05 Good Software Engineering Practices](/_posts/2018-11-05-Good_Software_Engineering_Practices.md)
 

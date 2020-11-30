@@ -2,7 +2,7 @@
 layout: post
 title: Hadoop and Spark for Data Scientists
 date: 2020-07-18
-comments: true
+comments_id: 14
 ---
 
 # What is Hadoop?

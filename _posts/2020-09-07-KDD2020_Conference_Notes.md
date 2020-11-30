@@ -2,7 +2,7 @@
 layout: post
 title: KDD2020 Conference Notes
 date: 2020-09-07
-comments: true
+comments_id: 18
 ---
 
 

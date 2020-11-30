@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sklearn Pipeline
+title: Sklearn Pipeline Summary
 date: 2020-10-20
-comments: true
+comments_id: 13
 ---
 
 https://medium.com/vickdata/a-simple-guide-to-scikit-learn-pipelines-4ac0d974bdcf

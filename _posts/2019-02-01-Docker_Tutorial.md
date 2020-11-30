@@ -2,7 +2,7 @@
 layout: post
 title: Docker Tutorial
 date: 2019-02-01
-comments: true
+comments_id: 7
 ---
 
 # Why use Docker?
