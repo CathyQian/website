@@ -10,7 +10,7 @@ permalink: /tech/
 
 20. [2020-10-10 Sklearn Pipeline Summary](/_posts/2020-10-10-Sklearn_Pipeline_Summary.md)
 
-19. [2020-09-27 Hive](/_posts/2020-09-27-Hive.md)
+19. [2020-09-27 Hive 101](/_posts/2020-09-27-Hive_101.md)
 
 18. [2020-09-21 Deep Understanding of Spark](/_posts/2020-09-21-Deep_Understanding_of_Spark.md)
 

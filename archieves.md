@@ -4,6 +4,8 @@ title: Archieves
 permalink: /archieves/
 ---
 
+23. [2020-11-30 Job Hunting Amid The Pandemic](/_posts/2020-11-30-Job_Hunting_Amid_The_Pandemic.md)
+
 22. [2020-11-25 Setting Up Personal Website with GitHub and Jekyll](/_posts/2020-11-25-Setting_Up_Personal_Website_with_GitHub_and_Jekyll.md)
 
 21. [2020-10-20 AWS Service Summary](/_posts/2020-10-20-AWS_Service_Summary.md)
