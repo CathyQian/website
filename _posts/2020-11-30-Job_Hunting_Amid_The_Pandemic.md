@@ -13,6 +13,7 @@ I was shocked because things came too sudden, with so many employees laid off wi
 
 Another part of me felt relieved because I was suffering from having to work full-time and taking care of a three-year-old who couldn't go to daycare because of the pandemic at the same time. I have already adjusted my schedule to waking up at 4 am and start working at 4:30 am until 12 pm, spent all my afternoon with my little one Luna, try to finish any leftover work after putting her to bed at around 8 pm. However, it's still quite a struggle, especially sometimes she stayed up until 10 pm, or I have a deadline at work. Besides, working at tech means you have to learn new things at your spare time, which I barely have time to do. From that perspective, no longer have to work full-time is a bless. That means I will have time to learn new things and my schedule can be a bit more flexible so that I can sleep more. Still, I keep reminding myself that there is a hard journey ahead.
 
+### How does the market look like?
 Without much time to think, I started job hunting. By then, I have been a data scientist at my current role for 14 months, building end-to-end machine learning pipelines, finished some major and impactful projects. However, I was still far from a senior data scientist and need time to grow in many areas, including domain knowledge and technical expertise. At the same time, the data science field has evolved quite rapidly, with many automation tools to make data scientists' job easier, or put it in another words, to replace data scientists. I spent a couple of days analyzing job postings and realized most data scientist jobs fall into the following categories:
 1) analysts who build business reports and do experimentation, i.e., A/B test
 2) applied scientists who focus on building models and put them into production using tools developed by engineers
@@ -30,6 +31,11 @@ There are also a couple of hot startups actively hiring:
 
 Other companies such as Expedia Group, T-mobile, Snowflake, SAP, Snap, Twitter, Pinterest are also hiring here and there.
 
+In general, there are more senior positions than junior positions. For companies that are still hiring, the competition is more severe and the bar is higher than normal times. No need for visa sponsorship is a big bonus. 
+
+### Where to look for jobs?
+I mainly use LinkedIn and Indeed to check out new openings. If I find a role I am interested in, I will first go to the company's website to check for the most updated information about that role and other similar roles, as LinkedIn or Indeed posts may not be the most updated. The next step is to look for direct or indirect connections who can give me a referral. If I cannot find any, then I will apply online directly. For companies like Amazon, Facebook or Microsoft, referral won't make a big difference. The best way is to find recruiters directly on LinkedIn and ask them to schedule interviews for you directly if they see a fit. Most recruiters will be happy to do so as you are making their life easier. Alternatively, you can search for hiring managers who are looking to hire on LinkedIn and chat with them directly. This is even more efficient than chatting with recruiters.
+
 I did many things simutaneously to get interviews, many of them turned out to be a waste of time. Below are a couple of important lessions I have learned through the process and will follow if I need to look for jobs in the future:
 
 ### Spend the time to polish your resume 
@@ -41,6 +47,8 @@ A resume is your first impression to the hiring manager, so we all know it is im
 - **Personal Website**. A good personal website is an effective marketing tool to your personal brand and career in the long run. It is also a good way to force yourself to learn and make progress all the time. However, maintaining a good personal website requires consistent devotion out of regular working hours. If you don't have one yet, start one now and add content gradually, so that it maybe useful in your next job hunt.
 
 ### Network Network Network
+I realized I got a majority of opportunities through my network. Some are from undergraduate alumini whose hiring manager happened to be hiring, some are from former colleagues who jumped to other companies and is hiring for his new team. My current manager also helped me circulate my resume around internally to anyone who might be hiring. The response rate for roles I simply apply online is much lower. 
+
 Network is something you have to do all the time, not only when you are looking for a job. **Effective networking starts with offering value to others.** When you are still on the job, try to know your peers outside of your own department, schedule a coffee or chit-chat with them, ask if there is anything you can help. Network online is becoming more and more important nowadays. Go to conferences or webinars, ask good questions and have conversations afterwards. Read articles on LinkedIn or Medium or other blogs, and try to exchange ideas with the authors.
 
 ### Figure out what you are looking for in your next role
