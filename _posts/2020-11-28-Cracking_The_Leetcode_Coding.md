@@ -4,7 +4,7 @@ title: Cracking the Leetcode Coding
 description: Summary of how I prepare for the coding screening in Leetcode
 date: 2020-11-28
 tags: coding, Leetcode, Python
-comments_id: 24
+comments_id: 23
 ---
 
 If you want to get a data scientist or software engineer job in the U.S., coding screening is usually an essential step you have to pass before being invited for an onsite interview. Most people use [Leetcode](www.leetcode.com) as a major resource to practice and prepare coding interviews. It is hard even for industry veterans, not to mention engineering or data science newbies. I started to program in Python from zero in 2016 --- that is when I heard of Leetcode for the first time. I started to practice Leetcode in 2017, and on-and-off until now. It is only when I spent about three months full-time on Leetcode recently that I finally got a taste of success in cracking the Leetcode coding.

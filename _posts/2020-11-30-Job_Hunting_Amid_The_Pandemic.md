@@ -4,7 +4,7 @@ title: Job Hunting Amid The Pandemic
 description: A brief summary of my past four months job hunting journey.
 date: 2020-11-30
 tags: career, job hunting, pandemic
-comments_id: 23
+comments_id: 24
 ---
 
 When I was informed that about 85% of my department would be laid off at the end of this year, myself included, I was shocked but also partially relieved. 
