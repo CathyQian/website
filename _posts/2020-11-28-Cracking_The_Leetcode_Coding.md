@@ -10,6 +10,7 @@ comments_id: 24
 If you want to get a data scientist or software engineer job in the U.S., coding screening is usually an essential step you have to pass before being invited for an onsite interview. Most people use [Leetcode](www.leetcode.com) as a major resource to practice and prepare coding interviews. It is hard even for industry veterans, not to mention engineering or data science newbies. I started to program in Python from zero in 2016 --- that is when I heard of Leetcode for the first time. I started to practice Leetcode in 2017, and on-and-off until now. It is only when I spent about three months full-time on Leetcode recently that I finally got a taste of success in cracking the Leetcode coding.
 
 Below is a screenshot of my Leetcode premium account:
+
 ![](/assets/2020-11-30-19-56-22.png)
 
 Yes, I practiced all these problems THREE times.
@@ -66,7 +67,7 @@ I organized problems by companies this round. Problems under each company are al
 
 My focus in this round is to **code up an optimal and bugfree solution in 20 min for easy and medium level problems and 30 min for hard problems**.
 
-# What's more
+# What else?
 
 When I first started, I spend time here and there to practice, and the progress is quite slow. When I start to do it in full time, I devote at least four hours practicing every day including weekends and I can really feel my progress. So one important lesson learned: **practice a couple of fixed hours EVERY day without interruption**.
 
