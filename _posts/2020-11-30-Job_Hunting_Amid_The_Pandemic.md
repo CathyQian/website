@@ -78,3 +78,4 @@ For the coming year or so, I will focus on clearing up technical debt for a seni
 - Distributed systems: This is not necessarily required for data scientists, however, modellers and engineers are becoming merged nowadays, so getting well understanding on distributed systems is becoming more and more important.
 - Machine learning systems: especially large scale systems such as Facebook, Uber, Twitter. How to make the algorithms run fast and efficient enough? How to improve model over time? How to retrain the model and compare with previous versions? How to monitor model performance?
 - Deep learning: deep learning is getting more and more popular in e-Commerce nowadays, thus be familiar with deep learning algorithms and framework such as PyTorch is critical.
+- Read one research paper per day about machine learning to stay up with the state-of-art advancement. This is a major sign of a senior.
