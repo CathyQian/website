@@ -3,14 +3,33 @@ layout: page
 title: Readings
 permalink: /readings/
 ---
+2020-12-29 **December Readings**
+
+[<img align="center" src="/assets/Ordinary-World.jpg" width="200"/>](/assets/Ordinary-World.jpg)
+
+[Ordinary World, by Lu Yao](https://www.amazon.com/Ordinary-World-Chinese-Lu-Yao/dp/7530211269)
+
+*A good story about how to excel at the ordinary world: read and know your environment, think differently, and step out of your comfort zone.*
+
+
+[<img align="center" src="/assets/Poor-Economics.jpg" width="200"/>](/assets/Poor-Economics.jpg)
+
+[Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty, by Abhijit V. Banerjee,Esther Duflo](https://www.goodreads.com/book/show/10245602-poor-economics)
+
+*Many years ago, my parents were living in a poor village and struggling financially at every single moment of their life. When I went to college and see how other people make a fortune by hands, I started to question my parents' struggle --- have they worked hard enough to bring us out of poverty? Now I found answers in this book: it is simply too challenging to climb out of poverty in their shoes. It requires lots of luck and wisdom, while my parents are just ordinary people without those. By the same token, it is hard to climb out of any social or financial cycles without luck and wisdom.*
+
+[<img align="center" src="/assets/Moon-And-Sixpence.jpg" width="200"/>](/assets/Moon-And-Sixpence.jpg)
+
+[The Moon and Sixpence, by W. Somerset Maugham](https://www.goodreads.com/book/show/44796.The_Moon_and_Sixpence?ac=1&from_search=true&qid=Sotlvl53b8&rank=1)
+
 
 2020-11-27 **A couple of books I am currently reading and recommend**
-
 
 [<img align="center" src="/assets/A-Promised-Land.jpg" width="200"/>](/assets/A-Promised-Land.jpg)
 
 [A Promised Land, by Barack Obama](https://www.goodreads.com/book/show/55359022-a-promised-land)
 
+*Obama is extraordinarily good at making friends and gathering allies at work.*
 
 [<img align="center" src="/assets/Crucial-Conversations.jpg" width="200"/>](/assets/Crucial-Conversations.jpg)
 
