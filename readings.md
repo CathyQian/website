@@ -20,7 +20,7 @@ permalink: /readings/
 
 [<img align="center" src="/assets/Moon-And-Sixpence.jpg" width="200"/>](/assets/Moon-And-Sixpence.jpg)
 
-[The Moon and Sixpence, by W. Somerset Maugham](https://www.goodreads.com/book/show/44796.The_Moon_and_Sixpence?ac=1&from_search=true&qid=Sotlvl53b8&rank=1)
+[The Moon and Sixpence, by W. Somerset Maugham](https://www.goodreads.com/tr/book/show/44796.The_Moon_and_Sixpence)
 
 
 2020-11-27 **A couple of books I am currently reading and recommend**
