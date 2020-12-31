@@ -3,6 +3,9 @@ layout: page
 title: Archieves
 permalink: /archieves/
 ---
+26. [2020-12-30 Reinforcement Learning Series 1](/_posts/2020-12-30-Reinforcement_Learning_Series_1.md)
+
+25. [2020-12-09 The Right Way to Refresh Machine Learning Models](/_posts/2020-12-09-The_Right_Way_to_Refresh_ML_Models.md)
 
 24. [2020-11-30 Job Hunting Amid The Pandemic](/_posts/2020-11-30-Job_Hunting_Amid_The_Pandemic.md)
 
