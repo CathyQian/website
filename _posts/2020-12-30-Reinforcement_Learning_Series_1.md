@@ -116,4 +116,8 @@ Alternatively, Gt can be defined recursively to allow us calculate Gt backwards 
 
 ### Week 3, Value functions and Bellman equations
 
-Now we have formally defined the MDPs and goal of reinforcement learning
+Now we have formally defined the MDPs and goal of reinforcement learning, our next question comes naturally -- how do we calculate the rewards for any MDPs and decide on the optimal way to act in order to maximize expected returns?
+
+We need to be quantitative here. So let's first define some quantities using some mathematical formula, and translate our initial question into an optimization problem.
+
+
