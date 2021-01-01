@@ -18,11 +18,11 @@ This is my personal notes from the Reinforcement learning Specialization provide
 
 ### Week 1, k-armed bandit problem and sample-average method
 
-k-armed bandit problem is defined as 'we have an *agent* who chooses between k *actions* and receives a *reward* based on the action it takes.' The reward each action takes is stochastically choosen from a probability distribution (where **uncertainty** comes from), and the goal of the agent is to **maximize the return of the actions**. It is a sequential decision making process under uncertainty.
+k-armed bandit problem is defined as 'we have an *agent* who chooses between k *actions* and receives a *reward* based on the action it takes.' The reward each action takes is stochastically choosen from a probability distribution (where **uncertainty** comes from), and the goal of the agent is to **maximize the return of the actions at each step**. It is a sequential decision making process under uncertainty.
 
 An example is a doctor (agent) who has to choose between multiple treatments (action) without full knowledge of each treatments' effect on patients (uncertainty). The doctor's goal is to maximize the effect (rewards) of the treatments (actions) over some period of time. 
 
-![](2020-12-30-15-59-06.png)
+[<img src="/assets/2020-12-30-15-59-06.png" width="450"/>](/assets/2020-12-30-15-59-06.png)
 
 If we know the *value* of each action, then it's fairly easy to make a choice at each step, as the agent can simply choose the action with the maximum value. However, we don't know the true value of each action beforehand, therefore we need to estimate the action value through experiments in which the agent take some action, get rewards, and estimate the action value based on the rewards. 
 
@@ -60,3 +60,60 @@ Two major questions can be asked about this process:
     [<img src="/assets/2020-12-30-16-58-06.png" width="450"/>](/assets/2020-12-30-16-58-06.png)
 
     Other methods for balancing exploitation and exploration include optimistic initial values and upper-confidence bound action selection. The former only drive early exploration and are not suited for non-stationary problems. It also require some knowledge of the max reward which is usually set as the optimistic initial value. 
+
+
+### Week 2, Markov decision processes (MDP) and goal of agent in reinforcement learning
+
+The problem of k-armed bandits problem is that it only considers short-term returns while in many cases long-term thinking is needed in order to optimize rewards.*Markov decision processes (MDPs) are a classical formalization of sequential decision making, where actions influence not just immediate rewards, but also subsequent situations, or states, and through those future rewards.*
+
+Three major parties involved in MDPs are:
+- agent: the learner and decision maker
+- environment: the thing the agent interacts with, comprising everything outside the agent
+- reward: numerical values that the agent seeks to maximize over time through its choice of actions, it passed from the environment to the agent
+
+[<img src="/assets/2020-12-31-14-36-08.png" width="450"/>](/assets/2020-12-31-14-36-08.png)
+
+Typical agent and environment interaction in MPDs can be described as above. The agent and environment interact at each of a sequence of discrete time steps, t = 0, 1, 2, 3.... Note that the real time interval between each time step can be anything depending on the specific problem. At time step t, the agent select an action At based on its environment's state St. Such an action will bring reward Rt+1 to the environment and change its state from St to St+1. The MDP and agent thereby give rise to a trajectory like this: *S0, A0, R1, S1, A1, R2, S2, A2, R3, ...*
+
+The **dynamics** of a *finite* MDP which has finite number of states, actions and rewards is defined as the function p as follows:
+
+[<img src="/assets/2020-12-31-14-47-27.png" width="450"/>](/assets/2020-12-31-14-47-27.png)
+
+Importantly, the following condition is satisfied.
+
+[<img src="/assets/2020-12-31-14-50-28.png" width="450"/>](/assets/2020-12-31-14-50-28.png)
+
+The essence of this equation is that the probability of each possible value for St and Rt depends only on the immediately preceding state and action, St-1 and At-1, irrelevant of earlier states and actions. That is to say, the present state have the **Markov property** ---  it includes all the information necessary to predict the future interactions.
+
+Previously we mentioned that MDPs considers long-term rewards while k-armed bandits problem only considers immediate reward. Why do we care about reward? Because it is what we are trying to optimize in reinforcement learning. A formal definition as the **reward hypothesis** is the goals and purposes of reinforcement learning is to *maximize the expected value of the cumulative sum of a received reward*.
+
+So how do we define rewards mathematically?
+
+There are two types of tasks: episodic task and continuous task. Episodic tasks are tasks in which the interaction breaks natually into subsequences called episodes, each episode ends in a terminal state, and episodes are independent. Continous tasks are tasks in which the interactions goes on continually and no terminal state exist.
+
+For episodic task, we seek to maximize expected return. Here expected return instead of return is used because of randomness involved in the process. The return is the sum of rewards:
+
+[<img src="/assets/2020-12-31-15-39-44.png" width="450"/>](/assets/2020-12-31-15-39-44.png)
+
+For continous task, the above equation easily goes into infinity. A mathematical trick is to introduce discounting by adding discount rate gama ([0, 1]) into future rewards as follows:
+
+[<img src="/assets/2020-12-31-15-43-32.png" width="450"/>](/assets/2020-12-31-15-43-32.png)
+
+Mathematically, we can prove Gt is finite.
+
+[<img src="/assets/2020-12-31-15-50-11.png" width="450"/>](/assets/2020-12-31-15-50-11.png)
+
+If gama < 1 and the reward is a constant +1, then the return is
+
+[<img src="/assets/2020-12-31-15-49-13.png" width="450"/>](/assets/2020-12-31-15-49-13.png)
+
+The discount rate indicates a reward received k time steps in the future is worth only gama^(k-1) times what it would be worth if it were received immediately. If gama = 0, it means the agent only cares about the immediate reward. The closer gama to 1, the stronger the agent takes future rewards into account.
+
+Alternatively, Gt can be defined recursively to allow us calculate Gt backwards starting from the termination state G(T) = 0.
+
+[<img src="/assets/2020-12-31-15-52-28.png" width="450"/>](/assets/2020-12-31-15-52-28.png)
+
+
+### Week 3, Value functions and Bellman equations
+
+Now we have formally defined the MDPs and goal of reinforcement learning
