@@ -71,7 +71,7 @@ Three major parties involved in MDPs are:
 - environment: the thing the agent interacts with, comprising everything outside the agent
 - reward: numerical values that the agent seeks to maximize over time through its choice of actions, it passed from the environment to the agent
 
-[<img src="/assets/2020-12-31-14-36-08.png" width="550"/>](/assets/2020-12-31-14-36-08.png)
+    [<img src="/assets/2020-12-31-14-36-08.png" width="650"/>](/assets/2020-12-31-14-36-08.png)
 
 Typical agent and environment interaction in MPDs can be described as above. The agent and environment interact at each of a sequence of discrete time steps, t = 0, 1, 2, 3.... Note that the real time interval between each time step can be anything depending on the specific problem. At time step t, the agent select an action At based on its environment's state St. Such an action will bring reward Rt+1 to the environment and change its state from St to St+1. The MDP and agent thereby give rise to a trajectory like this: *S0, A0, R1, S1, A1, R2, S2, A2, R3, ...*
 
@@ -93,7 +93,7 @@ There are two types of tasks: episodic task and continuous task. Episodic tasks 
 
 For episodic task, we seek to maximize expected return. Here expected return instead of return is used because of randomness involved in the process. The return is the sum of rewards:
 
-[<img src="/assets/2020-12-31-15-39-44.png" width="400"/>](/assets/2020-12-31-15-39-44.png)
+[<img src="/assets/2020-12-31-15-39-44.png" width="300"/>](/assets/2020-12-31-15-39-44.png)
 
 For continous task, the above equation easily goes into infinity. A mathematical trick is to introduce discounting by adding discount rate gama ([0, 1]) into future rewards as follows:
 
@@ -124,7 +124,7 @@ We need to be quantitative here. So let's first define some quantities using som
 
     A policy is a mapping from states to probabilities of selecting each possible action. It tells an agent how to behave in their environment. If an agent is folloiwng a policy Pi at time t, then Pi(a|s) is the probability that At = a if St = s. If Pi is a constant for every single state, meaning there is only one action to take after each state, this policy is called a deterministic policy. Otherwise, it is called a stochastic policy. For stochastic policy, the following condition is satisfied:
 
-    [<img src="/assets/2021-01-01-15-17-37.png" width="250"/>](/assets/2021-01-01-15-17-37.png)
+    [<img src="/assets/2021-01-01-15-17-37.png" width="150"/>](/assets/2021-01-01-15-17-37.png)
 
     For MDPs (note most reinforcement learning process constitutes a MDP), policies are only determined by the current state, not other things like time or previous states. 
 
