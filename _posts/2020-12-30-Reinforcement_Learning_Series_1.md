@@ -4,7 +4,7 @@ title: Reinforcement Learning Series 1
 description: Foundamentals of reinforcement learning 
 date: 2020-12-30
 tags: reinforcement learning
-comments_id: 26
+comments_id: 25
 ---
 
 This article series include my personal notes of the Reinforcement learning Specialization provided by the Unversity of Alberta and Alberta Machine Intelligence Institute on [Coursera](https://www.coursera.org/specializations/reinforcement-learning). The following four courses covered in this specialization are:
