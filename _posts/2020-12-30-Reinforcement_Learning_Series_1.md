@@ -22,7 +22,7 @@ k-armed bandit problem is defined as 'we have an *agent* who chooses between k *
 
 An example is a doctor (agent) who has to choose between multiple treatments (action) without full knowledge of each treatments' effect on patients (uncertainty). The doctor's goal is to maximize the effect (rewards) of the treatments (actions) over some period of time. 
 
-[<img src="/assets/2020-12-30-15-59-06.png" width="450"/>](/assets/2020-12-30-15-59-06.png)
+[<img src="/assets/2020-12-30-15-59-06.png" width="300"/>](/assets/2020-12-30-15-59-06.png)
 
 If we know the *value* of each action, then it's fairly easy to make a choice at each step, as the agent can simply choose the action with the maximum value. However, we don't know the true value of each action beforehand, therefore we need to estimate the action value through experiments in which the agent take some action, get rewards, and estimate the action value based on the rewards. 
 
@@ -31,7 +31,7 @@ Two major questions can be asked about this process:
 - How to estimate action values?
     We don't know the exact value for each action, so we estimate it using **sample-average method**.
 
-    [<img src="/assets/2020-12-30-16-28-26.png" width="450"/>](/assets/2020-12-30-16-28-26.png)
+    [<img src="/assets/2020-12-30-16-28-26.png" width="400"/>](/assets/2020-12-30-16-28-26.png)
 
     To make the calculation more computationally effective (less memory and less computing power), a bit of mathematical trick can be used so that estimated action value at the current step can be calculated based on the estimated action value and reward from the prior step. This trick is called incremental update rule.
 
@@ -57,7 +57,7 @@ Two major questions can be asked about this process:
 
     Therefore, we have greedy action selection rule by which the agent always select the acton with the highest estimated value, and epsilon-greedy action selection rule by which the agent behave greedily most of the time, but select randomly among all actions regardless of their estimated action values with a small probability epsilon.
 
-    [<img src="/assets/2020-12-30-16-58-06.png" width="450"/>](/assets/2020-12-30-16-58-06.png)
+    [<img src="/assets/2020-12-30-16-58-06.png" width="400"/>](/assets/2020-12-30-16-58-06.png)
 
     Other methods for balancing exploitation and exploration include optimistic initial values and upper-confidence bound action selection. The former only drive early exploration and are not suited for non-stationary problems. It also require some knowledge of the max reward which is usually set as the optimistic initial value. 
 
@@ -71,7 +71,7 @@ Three major parties involved in MDPs are:
 - environment: the thing the agent interacts with, comprising everything outside the agent
 - reward: numerical values that the agent seeks to maximize over time through its choice of actions, it passed from the environment to the agent
 
-[<img src="/assets/2020-12-31-14-36-08.png" width="450"/>](/assets/2020-12-31-14-36-08.png)
+[<img src="/assets/2020-12-31-14-36-08.png" width="550"/>](/assets/2020-12-31-14-36-08.png)
 
 Typical agent and environment interaction in MPDs can be described as above. The agent and environment interact at each of a sequence of discrete time steps, t = 0, 1, 2, 3.... Note that the real time interval between each time step can be anything depending on the specific problem. At time step t, the agent select an action At based on its environment's state St. Such an action will bring reward Rt+1 to the environment and change its state from St to St+1. The MDP and agent thereby give rise to a trajectory like this: *S0, A0, R1, S1, A1, R2, S2, A2, R3, ...*
 
@@ -81,7 +81,7 @@ The **dynamics** of a *finite* MDP which has finite number of states, actions an
 
 Importantly, the following condition is satisfied.
 
-[<img src="/assets/2020-12-31-14-50-28.png" width="450"/>](/assets/2020-12-31-14-50-28.png)
+[<img src="/assets/2020-12-31-14-50-28.png" width="400"/>](/assets/2020-12-31-14-50-28.png)
 
 The essence of this equation is that the probability of each possible value for St and Rt depends only on the immediately preceding state and action, St-1 and At-1, irrelevant of earlier states and actions. That is to say, the present state have the **Markov property** ---  it includes all the information necessary to predict the future interactions.
 
@@ -93,7 +93,7 @@ There are two types of tasks: episodic task and continuous task. Episodic tasks 
 
 For episodic task, we seek to maximize expected return. Here expected return instead of return is used because of randomness involved in the process. The return is the sum of rewards:
 
-[<img src="/assets/2020-12-31-15-39-44.png" width="450"/>](/assets/2020-12-31-15-39-44.png)
+[<img src="/assets/2020-12-31-15-39-44.png" width="400"/>](/assets/2020-12-31-15-39-44.png)
 
 For continous task, the above equation easily goes into infinity. A mathematical trick is to introduce discounting by adding discount rate gama ([0, 1]) into future rewards as follows:
 
@@ -101,11 +101,11 @@ For continous task, the above equation easily goes into infinity. A mathematical
 
 Mathematically, we can prove Gt is finite.
 
-[<img src="/assets/2020-12-31-15-50-11.png" width="450"/>](/assets/2020-12-31-15-50-11.png)
+[<img src="/assets/2020-12-31-15-50-11.png" width="550"/>](/assets/2020-12-31-15-50-11.png)
 
 If gama < 1 and the reward is a constant +1, then the return is
 
-[<img src="/assets/2020-12-31-15-49-13.png" width="450"/>](/assets/2020-12-31-15-49-13.png)
+[<img src="/assets/2020-12-31-15-49-13.png" width="550"/>](/assets/2020-12-31-15-49-13.png)
 
 The discount rate indicates a reward received k time steps in the future is worth only gama^(k-1) times what it would be worth if it were received immediately. If gama = 0, it means the agent only cares about the immediate reward. The closer gama to 1, the stronger the agent takes future rewards into account.
 
@@ -124,7 +124,7 @@ We need to be quantitative here. So let's first define some quantities using som
 
     A policy is a mapping from states to probabilities of selecting each possible action. It tells an agent how to behave in their environment. If an agent is folloiwng a policy Pi at time t, then Pi(a|s) is the probability that At = a if St = s. If Pi is a constant for every single state, meaning there is only one action to take after each state, this policy is called a deterministic policy. Otherwise, it is called a stochastic policy. For stochastic policy, the following condition is satisfied:
 
-    [<img src="/assets/2021-01-01-15-17-37.png" width="450"/>](/assets/2021-01-01-15-17-37.png)
+    [<img src="/assets/2021-01-01-15-17-37.png" width="250"/>](/assets/2021-01-01-15-17-37.png)
 
     For MDPs (note most reinforcement learning process constitutes a MDP), policies are only determined by the current state, not other things like time or previous states. 
 
@@ -132,11 +132,11 @@ We need to be quantitative here. So let's first define some quantities using som
  
     A value function defines the expected return for a state or state-action pair. Specifically, a *state-value function* of a state s under policy Pi is defined as:
     
-    [<img src="/assets/2021-01-01-15-23-08.png" width="450"/>](/assets/2021-01-01-15-23-08.png)
+    [<img src="/assets/2021-01-01-15-23-08.png" width="550"/>](/assets/2021-01-01-15-23-08.png)
 
     An *action-value function* of taking action a in state s under a policy Pi is defined as:
 
-    [<img src="/assets/2021-01-01-15-25-26.png" width="450"/>](/assets/2021-01-01-15-25-26.png)
+    [<img src="/assets/2021-01-01-15-25-26.png" width="550"/>](/assets/2021-01-01-15-25-26.png)
 
     Note that both value functions quantify the expected return at a certain state, so *the state-value function is a collective sum of action-value functions over different actions at the same state.*
 
@@ -176,7 +176,7 @@ Policy iteration contains three major steps as follows:
 
 - Policy improvement. It is the process of making a new policy that improves on an original policy, by making it greedy with respect to the state-action value function of the original policy. Here greedy means choosing the action at the current state to be the one with the maximum state-action value among all actions, then update the policy accordingly. 
 
-[<img src="/assets/2021-01-02-16-48-24.png" width="450"/>](/assets/2021-01-02-16-48-24.png)
+    [<img src="/assets/2021-01-02-16-48-24.png" width="650"/>](/assets/2021-01-02-16-48-24.png)
 
 Below is a toy implementation of this process in Python.
 
@@ -246,7 +246,7 @@ def improve_policy(env, V, pi, gamma):
 
 One question we may ask here is that there are much overlapped computation between the policy evaluation and policy improvement step, so it it possible to simplify such process? The answer is Yes, by truncating the policy evaluation step to only one sweep (one update of each state). Convergence to the optimal policy is proved to be still guaranteed. This algorithm is called value iteration. See detailed implementation below.
 
-[<img src="/assets/2021-01-03-12-37-26.png" width="450"/>](/assets/2021-01-03-12-37-26.png)
+[<img src="/assets/2021-01-03-12-37-26.png" width="650"/>](/assets/2021-01-03-12-37-26.png)
 
 ```Python
 def value_iteration(env, gamma, theta):
@@ -291,4 +291,5 @@ def value_iteration(env, gamma, theta):
 ```
 
 **Dynamic programming**
-    Dynamic programming (DP) is a general approach to solving problems by breaking them into subproblems that can be solved separately, cached, then combined to solve the overall problem. It can be used to solve both policy evaluation and control tasks in MDP, if we have access to the dynamics function *p*. The reason we need dynamic programming in reinforcement learning is because it is computationally more efficient than other methods such as Monte Carlo Sampling or Brutal-force Search. DP is synchronous if it systematically sweeps the entire state space at each iteration (update every state exactly once at each iteration) and aynchronous if it does not update all states at each iteration and updates some states more than others. Asynchronous DP converges faster than synchornous DP and thus used widely in real world reinforcement learning problem.
+
+Dynamic programming (DP) is a general approach to solving problems by breaking them into subproblems that can be solved separately, cached, then combined to solve the overall problem. It can be used to solve both policy evaluation and control tasks in MDP, if we have access to the dynamics function *p*. The reason we need dynamic programming in reinforcement learning is because it is computationally more efficient than other methods such as Monte Carlo Sampling or Brutal-force Search. DP is synchronous if it systematically sweeps the entire state space at each iteration (update every state exactly once at each iteration) and aynchronous if it does not update all states at each iteration and updates some states more than others. Asynchronous DP converges faster than synchornous DP and thus used widely in real world reinforcement learning problem.
