@@ -19,6 +19,7 @@ The biggest changes in our family comes from Luna, who has turned three this pas
 变化最大的是妞妞，从两岁到三岁，方方面面进步很大。这一年里，妞妞学会了骑自行车和滑板车，剪纸和画画，也终于不再穿尿不湿了。节日里和爸爸妈妈一起寄出了好几张有她画画的卡片，也人生第一次收到了别人寄给她的卡片。家里又多了几个布偶狗弟弟狗妹妹，她也会以大姐姐自居教育这些淘气包们，心情好的时候会耐心地给他们讲故事。
 
 [<img src="/assets/20210103_110408.jpg" width="450"/>](/assets/20210103_110408.jpg)
+
 [<img src="/assets/20201129_112418.jpg" width="450"/>](/assets/20201129_112418.jpg)
 
 I have switched to another department at Expedia Group, given that my previous one was fully dissolved due to strategy adjustment of the company amid the pandemic. My new role will be focused on search ranking. Meanwhile, I have restarted blogging that has been interrupted for many years. Commuting time is running time now. Hope all these good habbits last long.
