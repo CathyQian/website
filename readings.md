@@ -3,12 +3,30 @@ layout: page
 title: Readings
 permalink: /readings/
 ---
-2021-01-25 **January Readings**
 
-9, [The 360 Degree Leader: Developing Your Influence from Anywhere in the Organization, by John C. Maxwell](https://www.goodreads.com/book/show/183396.The_360_Degree_Leader?ac=1&from_search=true&qid=tSm2G8hWcU&rank=1)
+2021-03 **March Readings**
+
+10, [The 360 Degree Leader: Developing Your Influence from Anywhere in the Organization, by John C. Maxwell](https://www.goodreads.com/book/show/183396.The_360_Degree_Leader?ac=1&from_search=true&qid=tSm2G8hWcU&rank=1)
 
 [<img align="center" src="/assets/The-360-Degree-Leader.jpg" width="200"/>](/assets/The-360-Degree-Leader.jpg)
 
+2021-02 **March Readings**
+
+10, [Mindset: The New Psychology of Success, by Carol S. Dweck](https://www.goodreads.com/book/show/40745.Mindset)
+
+[<img align="center" src="/assets/Mindset.jpg" width="200"/>](/assets/Mindset.jpg)
+
+*I like this book because I find so much of myself in the book's description about the fixed mindset. The fixed mindset means you believe intelligence is static and therefore leads to a desire to look smart. With this mindset, you tend to avoid challenges, get defensive or give up easily, see effort as fruitless or worse, ignore useful negative feedback and feel threatened by the success of others. You work hard to have achievements that would validate yourself worth and adopted identity. As a result, you may plateau early and achieve less than your full potential. On the contrary, the growth mindset means you believe intelligence can be developed and therefore leads to a desire to learn. You embrace challenges, persist in the face of setbacks, see effort as the path to mastery, learn from criticism, and find lessons and inspiration in the success of others. As a result, you reach ever-higher levels of achievement. I recall many years in middle school panicing before the mid-term or final exam, being afraid to lose the NO.1 rank so that people will laugh at me and call me a loser. In the end, I spent all my time studying for higher grades in class, missing many opportunities to learn outside of class. Even nowadays at work, I often find myself trapped in the fixed mindset. Facing engineering challenges, I focus too much on finding the solution without understanding it. In the short term, it saves me time; but in the long run, my personal growth is harmed. The author also introduced such concepts into how we praise kids correctly. If we praise them for their born intelligence, we are encouraging the fixed mindset. Instead, we should praise them for how much efforts they have put in, how they dealt with challenges, and other things that they can learn over time. That way, we are fostering the growth mindset in our youth.*
+*The author also summarized a couple of questions to help develop a growth mindset: 1) What are the opportunities for learning and growth today? For myself? For the people around me? 2) As I think of opportunities and form a plan, I need to ask: When, where, and how will I embark on my plan? 3) As I encounter difficulties, I need to ask: When, where, and how will I act on my new plan? 4) And when you succeed, ask yourself: What do I have to do to maintain and continue the growth?*
+
+
+2021-01-25 **January Readings**
+
+9, [Zero to One: Notes on Startups, or How to Build the Future, by Peter Thiel, Blake Masters](https://www.goodreads.com/book/show/18050143-zero-to-one)
+
+[<img align="center" src="/assets/ZeroToOne.jpg" width="200"/>](/assets/ZeroToOne.jpg)
+
+*Some viewpoints that resonate me most include: 1) Avoid competition by innovation. Competition means many people or companies have similar skills or products and they have to fight for a small piece of a cake, while innovation can help you build something from zero to one where you have no competitors. 2) 80-20 rule. Focus on the 20% of the investments that can give you 80% return. Trying to diversify your portfolio too much is no better than gambling. 3)Your startup should always start from winning over a small market, because it's easy to build differentiated products for a small market and you will also not face as much competition as in a big market. 4) Your product needs to be 10 times better than the exisiting solution in order to be successful. 5) Marketing marketing marketing, regardless how good your products are. Knowing how to sale your products to the right people using the right method is critical.*
 
 8, [The Ten-Day MBA : A Step-By-Step Guide To Mastering The Skills Taught In America's Top Business Schools, by Steven Silbiger](https://www.goodreads.com/book/show/141850.The_Ten_Day_MBA_?ac=1&from_search=true&qid=w8uJXtLjYe&rank=1)
 
