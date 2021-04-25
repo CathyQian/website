@@ -3,6 +3,18 @@ layout: page
 title: Archieves
 permalink: /archieves/
 ---
+31. [2021-04-25 Retrospect On My Mentoring Experience](/_posts/2021-04-25-Retrospect_On_My_Mentoring_Experience/md)
+
+31. [2021-02-09 Happy Lunar New Year](/_posts/2021-02-09-Happy_Lunar_New_Year.md)
+
+30. [2021-01-15 Markov Decision Processes](/_posts/2021-01-15-Markov_Decision_Processes.md)
+
+29. [2021-01-14 K_armed Bandit Problem](/_posts/2021-01-14-K_armed_Bandit_Problem.md)
+
+28. [2021-01-07 Reflection On Choices Upon PhD Graduation](/_posts/2021-01-07-Reflection_On_Choices_Upon_PhD_Graduation.md)
+
+27. [2021-01-03 2020 End of Year Review](/_posts/2021-01-03-2020_End_of_Year_Review.md)
+
 26. [2020-12-30 Reinforcement Learning Series 1](/_posts/2020-12-30-Reinforcement_Learning_Series_1.md)
 
 25. [2020-12-09 The Right Way to Refresh Machine Learning Models](/_posts/2020-12-09-The_Right_Way_to_Refresh_ML_Models.md)
