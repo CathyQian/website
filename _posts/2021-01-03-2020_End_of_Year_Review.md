@@ -4,7 +4,7 @@ title: 2020 End of Year Review
 description:  
 date: 2021-01-03
 tags: review
-comments_id: 26
+comments_id: 27
 ---
 
 As the holiday comes to an end, the new year begins to unfold. 2020 is a memorable year for most people,  difficult and full of twists and turns. However, no matter what, life is always full of hope.
